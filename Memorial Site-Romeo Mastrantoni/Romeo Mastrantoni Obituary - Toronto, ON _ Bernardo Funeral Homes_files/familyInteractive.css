@@ -1,0 +1,426 @@
+#family-viewcards .bomTile.tributeTile.tributeType-condolence .tributePost-Tribute {
+   display: flex;
+}
+
+/* family interactive */
+.bomContent.familyInteractive-content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+/*@media screen and (max-width: 39.9375em) {
+  .bomTile.familyInteractiveTile .columns.leftColumn,
+  .bomTile.familyInteractiveTile .columns.rightColumn {
+    padding: 0;
+  }
+}*/
+.bomTile.familyInteractiveTile:hover,
+.bomTile.familyInteractiveTile:focus,
+.bomTile.familyInteractiveTile .tributeTile:hover,
+.bomTile.familyInteractiveTile .tributeTile:focus {
+  box-shadow: none;;
+}
+a.returnObit {
+  display: inline-block;
+/*  margin: 2rem 0 3rem;*/
+  padding: 0.25rem 1rem;
+  background: #ededed;
+  border: 1px solid #e1e1e1;
+  border-radius: 50px;
+}
+a.returnObit:hover,
+a.returnObit:focus {
+  background: #fcfcfc;
+}
+.bomTile.familyInteractiveTile {
+  margin-top: 0.5rem;
+}
+.bomTile.familyInteractiveTile .tileHeading {
+  margin-bottom: 2rem;
+}
+ul.menu.familyTile {
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 63.9375em) {
+  ul.menu.familyTile {
+    margin-top: 1rem;
+  }
+}
+ul.menu.familyTile li {
+  background: #f7f5f6;
+  border-bottom: 1px solid #e1e1e1;
+  transition: ease 200ms;
+}
+ul.menu.familyTile li:last-of-type {
+  border-bottom: 0;
+}
+ul.menu.familyTile li:hover,
+ul.menu.familyTile li:focus,
+ul.menu.familyTile li.is-active {
+  background: #fcfcfc;
+}
+ul.menu.familyTile li a {
+  padding: 1rem;
+  color: #707070;
+  font-weight: normal;
+}
+ul.menu.familyTile li a:hover,
+ul.menu.familyTile li a:focus {
+  color: #000;
+}
+ul.menu.familyTile li.is-active a {
+  font-weight: 700;
+  color: #0c4d8a;
+}
+.bomTile.familyInteractiveTile .tabs {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.bomTile.familyInteractiveTile .tabs-content {
+  border: 0;
+  background: none;
+}
+.bomTile.familyInteractiveTile .tabs-title {
+  width: 33%;
+}
+@media screen and (max-width: 39.9375em) {
+  .bomTile.familyInteractiveTile #photos-tabs .tabs-title {
+    width: 50%;
+  }
+}
+.bomTile.familyInteractiveTile .tabs-title > a {
+  padding: 0.5rem 1rem;
+  color: #707070;
+  text-align: center;
+  font-size: 0.85em;
+  font-weight: normal;
+}
+.bomTile.familyInteractiveTile .tabs-title > a:hover,
+.bomTile.familyInteractiveTile .tabs-title > a:focus {
+  color: #000;
+}
+.bomTile.familyInteractiveTile .tabs-title > a:focus,
+.bomTile.familyInteractiveTile .tabs-title > a[aria-selected='true'] {
+  position: relative;
+  color: #0c4d8a;
+  font-weight: 700;
+  background: none;
+  border: 1px solid #e6e6e6;
+  border-bottom: 0;
+}
+.bomTile.familyInteractiveTile .tabs-title > a:focus:after,
+.bomTile.familyInteractiveTile .tabs-title > a[aria-selected='true']:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #fff;
+}
+@media screen and (max-width: 39.9375em) {
+  .bomTile.familyInteractiveTile .tabs-title > a:focus,
+  .bomTile.familyInteractiveTile .tabs-title > a[aria-selected='true'] {
+    border: 0;
+  }
+  .bomTile.familyInteractiveTile .tabs-title > a:focus:after,
+  .bomTile.familyInteractiveTile .tabs-title > a[aria-selected='true']:after {
+    display: none;
+  }
+}
+.bomTile.familyInteractiveTile ul#condolence-tabs {
+  margin-top: 2rem;
+}
+.bomTile.familyInteractiveTile .bomTile.tributeType-condolence,
+.bomTile.familyInteractiveTile .bomTile.tributeType-flower,
+.bomTile.familyInteractiveTile .bomTile.tributeType-tree,
+.bomTile.familyInteractiveTile .bomTile.tributeType-donation,
+.bomTile.familyInteractiveTile .bomTile.tributeType-candle {
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+.bomTile.familyInteractiveTile .bomTile.tributeType-condolence:hover,
+.bomTile.familyInteractiveTile .bomTile.tributeType-condolence:focus {
+  background: rgba(0,0,0,0.0075);
+}
+.bomTile.familyInteractiveTile .tributePost-photo {
+  display: none;
+}
+.bomTile.familyInteractiveTile .bomTile.tributeType-condolence .tributePost-content {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+@media screen and (max-width: 39.9375em) {
+  #family-condolences .tributeTile .tributePost-Tribute .tributePost-content.media-container {
+      width: 100%;
+      max-width: 100%;
+      flex: 0 0 100%;
+  }
+  .bomTile.familyInteractiveTile .bomTile .gestureItem .gestureItem-image,
+  .bomTile.familyInteractiveTile .bomTile .tributePost-Tribute .gestureItem-image,
+  .bomTile.familyInteractiveTile .bomTile .gestureItem .media-section-container {
+    padding-left: 0.9375rem;
+  }
+}
+.bomTile.familyInteractiveTile .bomTile.tributeType-condolence h3.tileHeading {
+  margin-bottom: 0;
+}
+.bomTile.familyInteractiveTile .bomTile.tributeType-condolence .tributePost-nameDate-details,
+.bomTile.familyInteractiveTile .bomTile.tributeType-tree .tributePost-nameDate-details,
+.bomTile.familyInteractiveTile .bomTile.tributeType-flower .tributePost-nameDate-details,
+.bomTile.familyInteractiveTile .bomTile.tributeType-candle .tributePost-nameDate-details .tributePost-name,
+.bomTile.familyInteractiveTile .bomTile.tributeType-donation .tributePost-nameDate-details .tributePost-name {
+  margin-top: 0.5rem;
+  color: #707070;
+  font-size: 0.8em;
+}
+.bomTile.familyInteractiveTile .bomTile.tributeType-condolence .tributePost-nameDate-details .tributePost-name,
+.bomTile.familyInteractiveTile .bomTile.tributeType-tree .tributePost-nameDate-details .tributePost-name,
+.bomTile.familyInteractiveTile .bomTile.tributeType-flower .tributePost-nameDate-details .tributePost-name,
+.bomTile.familyInteractiveTile .bomTile.tributeType-candle .tributePost-nameDate-details .tributePost-name,
+.bomTile.familyInteractiveTile .bomTile.tributeType-donation .tributePost-nameDate-details .tributePost-name {
+  font-weight: 700;
+}
+.bomTile.familyInteractiveTile .bomTile.tributeType-condolence .gestureItem {
+  margin-top: 0;
+}
+.bomTile.familyInteractiveTile .bomTile .gestureItem .gestureItem-image,
+.bomTile.familyInteractiveTile .bomTile .tributePost-Tribute .gestureItem-image,
+.bomTile.familyInteractiveTile .bomTile .gestureItem .media-section-container {
+  padding-left: 0;
+}
+@media screen and (max-width: 39.9375em) {
+  .bomTile.familyInteractiveTile .bomTile .gestureItem .gestureItem-image,
+  .bomTile.familyInteractiveTile .bomTile .tributePost-Tribute .gestureItem-image,
+  .bomTile.familyInteractiveTile .bomTile .gestureItem .media-section-container {
+    padding-left: 0.9375rem;
+  }
+}
+.bomTile.familyInteractiveTile .bomTile .tributePost-Tribute .gestureItem-image {
+  margin-bottom: 1rem;
+}
+.bomTile.familyInteractiveTile .bomTile.tributeType-condolence .gestureItem span.photosVideos-thumb {
+  margin-top: 1rem;
+}
+.bomTile.familyInteractiveTile .bomTile.tributeType-condolence .tributePost-details,
+.bomTile.familyInteractiveTile .bomTile.tributeType-flower .tributePost-details {
+  text-align: right;
+}
+.bomTile.familyInteractiveTile .bomTile.tributeType-flower .tributePost-content {
+  max-width: none;
+  flex: 0 0 100%;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+}
+.bomTile.familyInteractiveTile .bomTile.tributeType-condolence .tributePost-reply {
+  padding: 1rem;
+}
+#family-condolences .condolence-remainder {
+    right: 10%;
+    left: auto;
+    transform: translate(calc(-25% - 0.5em),-25%);
+}
+
+.bomTile.familyInteractiveTile #family-photos .tabs-panel {
+  padding: 2rem 0;
+}
+.bomTile.familyInteractiveTile .photowrapper,
+.bomTile.familyInteractiveTile .unapprovedwrapper {
+  display: inline-block;
+  margin: 0 6px 2rem 0;
+  width: calc(100%/5 - 10px);
+  text-align: center;
+  vertical-align: top;
+}
+@media screen and (max-width: 500px) {
+  .bomTile.familyInteractiveTile .photowrapper,
+  .bomTile.familyInteractiveTile .unapprovedwrapper {
+    width: calc(100%/3 - 10px);
+  }  
+}
+.bomTile.familyInteractiveTile .photowrapper span.photosVideos-thumb,
+.bomTile.familyInteractiveTile .unapprovedwrapper span.photosVideos-thumb {
+  padding-bottom: 100%;
+  width: 100%;
+  cursor: default;
+}
+.bomTile.familyInteractiveTile .fi-photo-remove,
+.bomTile.familyInteractiveTile .fi-photo-approve {
+  color: #808080;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: ease 250ms;
+}
+.bomTile.familyInteractiveTile .fi-photo-remove:hover,
+.bomTile.familyInteractiveTile .fi-photo-remove:focus,
+.bomTile.familyInteractiveTile .fi-photo-approve:hover,
+.bomTile.familyInteractiveTile .fi-photo-approve:focus {
+  color: #000;
+}
+.bomTile.familyInteractiveTile .bom-form-row label {
+  color: #707070;
+  font-size: 0.8em;
+}
+.bomTile.familyInteractiveTile input[type="text"],
+.bomTile.familyInteractiveTile textarea,
+.bomTile.familyInteractiveTile .bom-form-row input[type="password"] {
+  border-radius: 0;
+  box-shadow: none;
+}
+.bomTile.familyInteractiveTile textarea {
+  min-height: 5.35em;
+}
+.bomTile.familyInteractiveTile .button {
+  margin-top: 1rem;
+  background: #0a4f88;
+  border-radius: 0;
+}
+.bomTile.familyInteractiveTile .bom-form-row .button {
+  width: 100%;
+}
+.bomTile.familyInteractiveTile .button:hover,
+.bomTile.familyInteractiveTile .button:focus {
+  background: #003866;
+}
+.bomTile.familyInteractiveTile #fi-pword-err {
+  display: block;
+  margin: 1rem 0;
+  width: 100%;
+  text-align: center;
+  color: red;
+}
+.bomTile.familyInteractiveTile .bomTile.accordion {
+  box-shadow: none;
+}
+.bomTile.familyInteractiveTile #fi_ethankyouAccordions .btnDown,
+.bomTile.familyInteractiveTile #fi_ethankyouAccordions .btnUp {
+  width: 7rem;
+}
+.bomTile.familyInteractiveTile .accordion .tileHeading {
+  margin-bottom: 0;
+}
+.bomTile.familyInteractiveTile .accordion fieldset.fi-preview-wrapper {
+    padding: 1rem;
+}
+.bomTile.familyInteractiveTile img.bom-ecard-selectionimage {
+  vertical-align: top;
+  margin: 0 0.25rem 0.5rem 0;
+  width: calc(100%/4 - 0.25rem - 4px);
+  max-height: 85px;
+}
+@media screen and (max-width: 39.9375rem) {
+  .bomTile.familyInteractiveTile img.bom-ecard-selectionimage {
+    width: calc(100%/2 - 0.25rem - 4px);
+  }
+}
+.bomTile.familyInteractiveTile .bom-ecard-chooseanother,
+.bomTile.familyInteractiveTile #SelectRecipients input.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.25rem 1rem;
+  width: auto;
+  color: #707070;
+  font-size: 0.8em;
+  background: #e7e7e7;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: ease 250ms;
+}
+.bomTile.familyInteractiveTile .bom-ecard-chooseanother:hover,
+.bomTile.familyInteractiveTile .bom-ecard-chooseanother:focus,
+.bomTile.familyInteractiveTile #SelectRecipients input.button:hover,
+.bomTile.familyInteractiveTile #SelectRecipients input.button:focus {
+  background: #f7f5f5;
+}
+.bomTile.familyInteractiveTile .fi-recipient-wrapper-container {
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 0.25rem;
+  background: rgba(0,0,0,0.0125);
+  border: 1px solid #e1e1e1;
+}
+.bomTile.familyInteractiveTile .fi-recipient-wrapper-container .fi-recipient-wrapper {
+  margin-bottom: 1rem;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+.bomTile.familyInteractiveTile .fi-recipient-wrapper-container .fi-recipient-wrapper [type='file'],
+.bomTile.familyInteractiveTile .fi-recipient-wrapper-container .fi-recipient-wrapper [type='checkbox'],
+.bomTile.familyInteractiveTile .fi-recipient-wrapper-container .fi-recipient-wrapper [type='radio'] {
+  margin-bottom: 0;
+}
+.bomTile.familyInteractiveTile .accordion fieldset.fi-preview-wrapper {
+  padding: 1rem 1rem 2rem;
+  text-align: center;
+  background: rgba(0,0,0,0.0125);
+  border-top: 1px solid #e1e1e1;
+}
+.bomTile.familyInteractiveTile .accordion fieldset.fi-preview-wrapper img#fi-cardPreview {
+  border: 3px solid #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.125);
+  transition: ease 250ms;
+}
+.bomTile.familyInteractiveTile .accordion fieldset.fi-preview-wrapper img#fi-cardPreview:hover,
+.bomTile.familyInteractiveTile .accordion fieldset.fi-preview-wrapper img#fi-cardPreview:focus {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1875);
+}
+.bomTile.familyInteractiveTile .fi-ety-err-container {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.bomTile.familyInteractiveTile .fi-ety-err-container .form-error {
+  padding: 0;
+  font-size: 0.9em;
+}
+.bomTile.familyInteractiveTile .bom-fi-wrapper.fi_ety_success {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #e1e1e1;
+}
+
+
+.bomTile.familyInteractiveTile ul.pagination {
+  margin-top: 1rem;
+}
+
+
+/* GD-FIPhotos classes for FI photo upload*/
+.bomTile.addFIPhotosTile {
+  padding: 0;
+  font-size: 0.8em;
+  position: relative;
+}
+/*.bomTile.addFIPhotosTile .addPhotoActions-container {
+  padding: 0 2.2rem 1.4rem;
+}*/
+.bomTile.addFIPhotosTile .addPhotoSubmit-container {
+  /*padding: 0 2.2rem;*/
+}
+.bomTile.addFIPhotosTile .row.post-button {
+  margin: 0;
+  padding: 0 0.5rem;
+}
+.bomTile.familyInteractiveTile a.actionLink {
+  color: #fefefe !important;
+  font-weight: 400;
+}
+.bomTile.addFIPhotosTile.media-item{
+  position: relative;
+  width: calc(100%/5 - 0.25rem);
+  height: auto;
+  float: left;
+  padding-bottom: 20%;
+  margin: 0 0.25rem 0.25rem 0;
+  background: #f5f5f5;
+  overflow: hidden;
+}
+.addphoto-fi-list{
+  margin-top: 1rem;
+  width: 100%;
+}
+.bomTile.familyInteractiveTile .AddFIPhotoMsg {
+  color:blue;
+  margin-bottom: 1rem;
+}
