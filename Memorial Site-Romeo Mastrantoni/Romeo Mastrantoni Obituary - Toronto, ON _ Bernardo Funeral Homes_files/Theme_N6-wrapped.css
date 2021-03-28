@@ -1,0 +1,4080 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+
+/* bom wrapped content */
+body>.bom-n6.bom-foundation-wrapper:first-of-type {
+  background: none;
+}
+
+img.lightbox-media-image-element {
+  max-width: 100%;
+}
+
+.bom-n6.bom-foundation-wrapper i {
+  font-style: normal;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeType-flower .tributePost-row,
+.bom-n6.bom-foundation-wrapper .tributeType-flower .tributePost-reply/*,
+.bom-n6.bom-foundation-wrapper .tributeType-flower .tributePost-message*/ {
+  display: none;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-controls-menu .showAll {
+  display: none;
+}
+
+.bom-n6.bom-foundation-wrapper .tribute-list {
+  width: 100%;
+}
+
+.bom-n6.bom-foundation-wrapper .postButton {
+  padding-right: 1.4rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tabs-panel {
+  padding: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .tabs-content {
+  border: none;
+}
+
+.bom-n6.bom-foundation-wrapper .sendFlowers-actions a,
+.bom-n6.bom-foundation-wrapper .sendFlowers-actions a:visited {
+  color: #84ac33 !important;
+  font-size: .9rem;
+  font-weight: 600;
+  text-decoration: underline !important;
+}
+
+.bom-n6.bom-foundation-wrapper .leaveCondolenceAction a,
+.bom-n6.bom-foundation-wrapper .leaveCondolenceAction a:visited {
+  text-decoration: underline;
+  color: #0f74de !important;
+}
+
+.bom-n6.bom-foundation-wrapper .form-error {
+  padding-left: 1.4em;
+}
+
+.bom-n6.bom-foundation-wrapper .featured {
+  border: 1px solid #fff;
+  -webkit-box-shadow: inset 0 0 0 5px rgba(131, 174, 85, 0.25), 0 5px 10px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 0 0 5px rgba(131, 174, 85, 0.25), 0 5px 10px rgba(0, 0, 0, 0.125);
+}
+
+.bom-n6.bom-foundation-wrapper .leave-comment {
+  padding-top: 10px;
+}
+
+.bom-n6.bom-foundation-wrapper .leave-comment input {
+  margin-bottom: 0px;
+}
+
+.bom-n6.bom-foundation-wrapper h1 {
+  font-family: Open Sans !important;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent h2 {
+  color: #555555;
+  font-family: Open Sans !important;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: left !important;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent h2.columnTitle {
+  margin-bottom: 0;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent h3 {
+  font-family: Open Sans !important;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #000;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent h4 {
+  font-family: Open Sans !important;
+  font-size: 1.25em;
+  font-weight: 300;
+  color: #707070;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent h6 {
+  font-weight: 600;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile {
+  margin: 0.5rem 0rem 1.25rem;
+  padding: 1.4rem;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  -webkit-transition: ease 250ms;
+  transition: ease 250ms;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile:hover,
+.bom-n6.bom-foundation-wrapper .bomTile:focus {
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
+}
+
+.bom-n6.bom-foundation-wrapper .row.collapse.bomTile {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.5rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.loader {
+  padding: 10px 0;
+  font-size: 1.2em;
+  color: #898989;
+  -webkit-box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.025);
+  box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.025);
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent h3.tileHeading {
+  margin: 1rem 0 0;
+  color: #626262;
+  font-family: Open Sans !important;
+  font-size: 1rem;
+  text-align: left !important;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div#wall div.bomContent h3.tileHeading {
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile h3.tileHeading:nth-child(1) {
+  margin-top: 0;
+}
+
+/* fpay tile */
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .tileText h3 {
+  color: #939393;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .tileText a.button {
+  width: 100%;
+  max-width: 200px;
+  min-height: 40px;
+  padding: 12px 20px;
+  color: #555555 !important;
+  font-size: .8rem;
+  font-weight: 700;
+  background: #f2f2f2;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .tileText a.button:hover {
+  background: #c5c5c5 !important;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .accordion-title {
+  padding-left: 0;
+  padding-right: 0;
+  color: #555555 !important;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.4px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .accordion-title:hover {
+  color: #4069b4 !important;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .accordion-title::before {
+  top: 1.8rem;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .accordion-content {
+  padding-bottom: 0;
+  border-left: none;
+  border-right: none;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .accordion-content>.row {
+  padding: 1rem 0rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .accordion-content>.row:last-of-type {
+  border-bottom: none;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .accordion-content .column {
+  padding: .2rem 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .accordion-content>.row .donation-name {
+  color: #555555;
+  font-size: 16px;
+  letter-spacing: -0.13px;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .accordion-content>.row .donation-name b {
+  color: #000000;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .accordion-content>.row .donation-date {
+  color: #555555;
+  font-size: 11px;
+  letter-spacing: -0.09px;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .campaignStatus {
+  margin-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: #939393;
+  font-size: 15px;
+  letter-spacing: -0.3px;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.23);
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .campaignStatus b {
+  color: #555555;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.4px;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .campaignStatus .goal {
+  margin-bottom: .4rem;
+  padding-left: 0;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .campaignStatus .progress {
+  height: 7px;
+  margin-bottom: .6rem;
+  background-color: #e0e0e0;
+  border-radius: 7px;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.21);
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .campaignStatus .progress-meter {
+  background-color: #4069b4;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .campaignStatus .donationTotals {
+  margin-top: .2rem;
+  margin-bottom: 1.6rem;
+  color: #939393;
+  font-size: 15px;
+  letter-spacing: -0.3px;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .campaignStatus .donationTotals b {
+  color: #555555;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.32px;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .campaignStatus a.button {
+  margin: 0;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .campaignStatus a.button.donate-btn {
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -0.13px;
+  background-color: #4069b4;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .campaignStatus a.button.donate-btn:hover {
+  background-color: #365899 !important;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .campaignStatus a.button.facebook-share {
+  color: #4069b4 !important;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: -0.13px;
+  background: #fff;
+  border: solid 1px #4069b4;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.funeralPayTile .campaignStatus a.button.facebook-share:hover {
+  color: #fff !important;
+  background-color: #365899 !important;
+}
+
+/* premium tree tile */
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .row.gestureItem {
+  margin: 0;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .row.gestureItem .gestureItem-cta {
+  width: 100%;
+  max-width: 100%;
+  padding: 1.6rem 1.2rem;
+  color: #fff;
+  text-align: center;
+  background: url("./premium-tree-image.png") center no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  flex: initial;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .gestureItem-cta .selected-icon {
+  font-size: 1.8rem;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .gestureItem-cta p {
+  margin-bottom: .6rem;
+  font-weight: bold;
+}
+  
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .tributePost-message {
+  margin-bottom: .6rem;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .gestureItem-cta a.plant-btn {
+  margin-bottom: 1.2rem;
+  padding: .2rem .6rem;
+  color: #fff !important;
+  font-size: .9rem;
+  font-weight: bold;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  display: inline-block;
+  transition: .2s all ease-in-out;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .gestureItem-cta a.plant-btn:hover {
+  color: #84ac33 !important;
+  background: #fff;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .gestureItem-cta a.view-location {
+  width: max-content;
+  margin: 0 auto;
+  padding: .2rem .6rem;
+  color: #fff !important;
+  font-size: .68rem;
+  font-weight: normal;
+  text-decoration: underline;
+  border-radius: 20px;
+  display: block;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .gestureItem-cta a.view-location:hover {
+  color: #84ac33 !important;
+  background: #fff;
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+
+  .bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .tributePost-content.premiumTree .tileHeading,
+  .bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .tributePost-content.premiumTree span.tileText,
+  .bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .tributePost-content.premiumTree div.tileText {
+    width: 50%;
+    padding-right: 2rem;
+    float: left;
+    clear: both;
+  }
+  
+  .bom-n6.bom-foundation-wrapper #bom-site-wrapper div.bomContent .bomTile.tributeType-premiumTree .tributePost-message {
+    margin-bottom: .6rem;
+  }
+}
+
+/* end premium tree */
+
+/* donation successful */
+
+.bom-n6.bom-foundation-wrapper .DonationSuccess .don_post_success {
+  color: #222 !important;
+  font-size: 1.4rem !important;
+}
+
+.bom-n6.bom-foundation-wrapper .DonationSuccess .gestureTile h4 {
+  color: #fff;
+  font-weight: 300 !important;
+}
+
+.bom-n6.bom-foundation-wrapper .DonationSuccess .gestureTile .tileText {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.bom-n6.bom-foundation-wrapper .DonationSuccess p.tileText.close:hover {
+  text-decoration: underline;
+}
+
+.bom-n6.bom-foundation-wrapper .tileText {
+  color: #626262;
+  font-family: Open Sans !important;
+  font-size: .9rem;
+  font-weight: normal;
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+.bom-n6.bom-foundation-wrapper .tileLink {
+  /*padding-top: .6rem;*/
+  /*font-size: .76rem;*/
+}
+
+.bom-n6.bom-foundation-wrapper a {
+  color: #4069b4 !important;
+  font-weight: 700;
+}
+
+.bom-n6.bom-foundation-wrapper a:hover,
+.bom-n6.bom-foundation-wrapper a:focus {
+  color: #274781 !important;
+}
+
+.bom-n6.bom-foundation-wrapper a:visited {
+  color: initial !important;
+}
+
+.bom-n6.bom-foundation-wrapper a.tileLink,
+.bom-n6.bom-foundation-wrapper .tileLink a,
+.bom-n6.bom-foundation-wrapper a.comment,
+.bom-n6.bom-foundation-wrapper a.readmore,
+.bom-n6.bom-foundation-wrapper a.donationLink,
+.bom-n6.bom-foundation-wrapper a.funeralPay-link,
+.bom-n6.bom-foundation-wrapper .social a.facebook-share,
+.bom-n6.bom-foundation-wrapper .service-actions a,
+.bom-n6.bom-foundation-wrapper .gestureHeading a,
+.bom-n6.bom-foundation-wrapper .tributePost-controls .dropdown.menu>li>ul>li.primaryLink>a,
+.bom-n6.bom-foundation-wrapper a.photographicMemories-link.serviceRecording-play {
+  color: #4069b4 !important;
+  font-family: Open Sans !important;
+  font-weight: bold;
+  /*text-decoration: underline;*/
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.bom-n6.bom-foundation-wrapper a.tileLink:hover,
+.bom-n6.bom-foundation-wrapper a.tileLink:focus,
+.bom-n6.bom-foundation-wrapper .tileLink a:hover,
+.bom-n6.bom-foundation-wrapper .tileLink a:focus,
+.bom-n6.bom-foundation-wrapper a.comment:hover,
+.bom-n6.bom-foundation-wrapper a.comment:focus,
+.bom-n6.bom-foundation-wrapper a.readmore:hover,
+.bom-n6.bom-foundation-wrapper a.readmore:focus,
+.bom-n6.bom-foundation-wrapper a.donationLink:hover,
+.bom-n6.bom-foundation-wrapper a.donationLink:focus,
+.bom-n6.bom-foundation-wrapper a.funeralPay-link:hover,
+.bom-n6.bom-foundation-wrapper a.funeralPay-link:focus,
+.bom-n6.bom-foundation-wrapper .service-actions a:hover,
+.bom-n6.bom-foundation-wrapper .service-actions a:focus,
+.bom-n6.bom-foundation-wrapper .gestureHeading a:hover,
+.bom-n6.bom-foundation-wrapper .gestureHeading a:focus,
+.bom-n6.bom-foundation-wrapper .tributePost-controls .dropdown.menu>li>ul>li.primaryLink>a:hover,
+.bom-n6.bom-foundation-wrapper .tributePost-controls .dropdown.menu>li>ul>li.primaryLink>a:focus {
+  color: #274781 !important;
+}
+
+.bom-n6.bom-foundation-wrapper a.actionLink {
+  font-size: 0.9em;
+}
+
+.bom-n6.bom-foundation-wrapper .printable {
+  font-size: 0.8em;
+}
+
+.bom-n6.bom-foundation-wrapper .printable a {
+  color: #b3b3b3 !important;
+  font-family: 'Open Sans' !important;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.bom-n6.bom-foundation-wrapper .printable a:hover,
+.bom-n6.bom-foundation-wrapper .printable a:focus {
+  color: #555555;
+}
+
+.bom-n6.bom-foundation-wrapper .printable i {
+  margin-left: 0.25rem;
+}
+
+.bom-n6.bom-foundation-wrapper a.obit-hfs-link,
+.bom-n6.bom-foundation-wrapper a.obit-hfs-link:visited,
+.bom-n6.bom-foundation-wrapper a.obit-hfs-link.obit-link-flowers {
+  color: #84ac33 !important;
+  font-weight: bold;
+  text-decoration: underline !important;
+}
+
+.bom-n6.bom-foundation-wrapper a.obit-hfs-link:hover,
+.bom-n6.bom-foundation-wrapper a.obit-hfs-link:focus,
+.bom-n6.bom-foundation-wrapper a.obit-hfs-link.obit-link-flowers:hover,
+.bom-n6.bom-foundation-wrapper a.obit-hfs-link.obit-link-flowers:focus {
+  color: #668821 !important;
+}
+
+.bom-n6.bom-foundation-wrapper a.obit-hfs-link.obit-link-trees,
+.bom-n6.bom-foundation-wrapper a.obit-hfs-link.obit-link-trees:visited {
+  color: #84ac33 !important;
+}
+
+.bom-n6.bom-foundation-wrapper a.obit-hfs-link.obit-link-trees:hover,
+.bom-n6.bom-foundation-wrapper a.obit-hfs-link.obit-link-trees:focus {
+  color: #668821 !important;
+}
+
+.bom-n6.bom-foundation-wrapper .readless {
+  margin-top: .2rem;
+  font-weight: bold;
+  display: block;
+}
+
+.bom-n6.bom-foundation-wrapper label.switch-paddle {
+  background: #e7e7e7;
+  border-radius: 50px;
+}
+
+.bom-n6.bom-foundation-wrapper .switch-paddle::after {
+  border-radius: 50%;
+}
+
+.bom-n6.bom-foundation-wrapper input:checked~.switch-paddle {
+  background: #ababab;
+}
+
+.bom-n6.bom-foundation-wrapper .switch.small .switch-paddle {
+  width: 3.25rem;
+  height: 1.5rem;
+}
+
+.bom-n6.bom-foundation-wrapper .switch.small .switch-paddle::after {
+  width: 1rem;
+  height: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tooltip {
+  font-size: 0.75em;
+  line-height: 1.2;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.bom-n6.bom-foundation-wrapper .tooltip.top::before {
+  border-color: rgba(0, 0, 0, 0.8) transparent transparent;
+}
+
+.bom-n6.bom-foundation-wrapper .tribute-mask .row {
+  width: 100%;
+}
+
+.bom-n6.bom-foundation-wrapper .responsive-embed,
+.bom-n6.bom-foundation-wrapper .flex-video {
+  max-width: 100%;
+}
+
+.bom-n6.bom-foundation-wrapper .button.filterType {
+  padding: 0.25rem 0.125rem 0.25rem 0.5rem;
+  color: #707070;
+  background: #e7e7e7;
+  border-radius: 50px;
+}
+
+.bom-n6.bom-foundation-wrapper .button.filterType:hover,
+.bom-n6.bom-foundation-wrapper .button.filterType:focus {
+  background: #fff;
+}
+
+.bom-n6.bom-foundation-wrapper .button.filterType .fa-stack {
+  font-size: 0.75em;
+}
+
+.bom-n6.bom-foundation-wrapper .fa-stack .fa-stack-2x {
+  color: #ccc;
+}
+
+.bom-n6.bom-foundation-wrapper .button.filterType:hover .fa-stack .fa-stack-2x,
+.bom-n6.bom-foundation-wrapper .button.filterType:focus .fa-stack .fa-stack-2x {
+  color: #c1c1c1;
+}
+
+.bom-n6.bom-foundation-wrapper p.tileText.close {
+  margin-top: 3rem;
+  -webkit-transition: ease 200ms;
+  transition: ease 200ms;
+  cursor: pointer;
+}
+
+.bom-n6.bom-foundation-wrapper p.tileText.close:hover,
+.bom-n6.bom-foundation-wrapper p.tileText.close:focus {
+  color: #000;
+}
+
+.bom-n6.bom-foundation-wrapper .guaranteedDelivery {
+  padding-top: 0.25rem;
+  color: #a4a4a4;
+  font-family: 'Open Sans' !important;
+  font-size: 0.76em;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.bom-n6.bom-foundation-wrapper .donationText {
+  font-size: .7rem;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureHeading {
+  padding-bottom: .6rem;
+  color: #000000;
+  font-family: Open Sans !important;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureHeading span {
+  color: #626262;
+  font-family: Open Sans !important;
+  font-size: .8rem;
+  font-weight: normal;
+}
+
+.bom-n6.bom-foundation-wrapper button.close-button {
+  top: 0;
+  right: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #fff;
+  border-radius: 0;
+  /*box-shadow: 0 0 50px rgba(0,0,0,0.125);*/
+  -webkit-transition: ease 250ms;
+  transition: ease 250ms;
+  z-index: 1;
+}
+
+.bom-n6.bom-foundation-wrapper body {
+  font-family: Open Sans !important;
+  background: #f7f5f5;
+}
+
+.bom-n6.bom-foundation-wrapper .header {
+  background: none;
+}
+
+.bom-n6.bom-foundation-wrapper .headerTop {
+  color: #fff;
+  font-family: Open Sans !important;
+  /*background: transparent;
+  background: -moz-linear-gradient(top, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.7) 100%), url(../assets/header-bg.jpg) center no-repeat;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, transparent), color-stop(50%, transparent), color-stop(100%, rgba(0, 0, 0, 0.7))), url(../assets/header-bg.jpg) center no-repeat;
+  background: -webkit-linear-gradient(top, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.7) 100%), url(../assets/header-bg.jpg) center no-repeat;
+  background: -o-linear-gradient(top, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.7) 100%), url(../assets/header-bg.jpg) center no-repeat;
+  background: -ms-linear-gradient(top, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.7) 100%), url(../assets/header-bg.jpg) center no-repeat;
+  background: linear-gradient(to bottom, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.7) 100%), url(../assets/header-bg.jpg) center no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );*/
+  background: url(./header-back.jpg);  
+  background-size: cover !important;
+  position: relative;
+}
+
+.bom-n6.bom-foundation-wrapper .headerTop .familyLogin,
+.bom-n6.bom-foundation-wrapper .headerTop .headerContent,
+.bom-n6.bom-foundation-wrapper .header .headerBottom,
+.bom-n6.bom-foundation-wrapper .familyInteractiveTile {
+  margin: auto;
+  max-width: 72rem;
+}
+
+.bom-n6.bom-foundation-wrapper .headerBottom {
+  background: #fff;
+}
+
+.bom-n6.bom-foundation-wrapper .headerTop .socialContainer span.small-text {
+  margin: 0.4rem 0rem 0rem 0.4rem;
+  font-size: 0.7rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  display: block;
+}
+
+.bom-n6.bom-foundation-wrapper .headerTop .familyLogin {
+  font-size: 0.8em;
+  line-height: 1;
+}
+
+.bom-n6.bom-foundation-wrapper .headerTop .familyLogin .column {
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 0 0 10px 10px;
+  -webkit-transition: ease 200ms;
+  transition: ease 200ms;
+}
+
+.bom-n6.bom-foundation-wrapper .headerTop .familyLogin .column:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.bom-n6.bom-foundation-wrapper .headerTop .familyLogin .column a {
+  color: #fff !important;
+  font-weight: 100;
+  -webkit-transition: ease 0.25s;
+  transition: ease 0.25s;
+}
+
+.bom-n6.bom-foundation-wrapper .headerTop .familyLogin .column a:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* shiva buttons */
+
+.bom-n6.bom-foundation-wrapper .shivaTile {
+  text-align: center;
+}
+
+.bom-n6.bom-foundation-wrapper .shivaTile a.shiva-link {
+  width: 30%;
+  min-height: 40px;
+  padding: 12px 0px;
+  padding-left: 20px;
+  color: white !important;
+  background-color: #3f69b3;
+  background-position: center left;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  display: inline-block;
+  transition: .2s all ease-in-out;
+}
+
+.bom-n6.bom-foundation-wrapper .shivaTile a.shiva-link:hover {
+  background-color: #365899;
+}
+
+.bom-n6.bom-foundation-wrapper .shivaTile a.shiva-page {
+  background-image: url('../assets/page.png');
+  background-position: 6px center;
+  background-size: 18px;
+}
+
+.bom-n6.bom-foundation-wrapper .shivaTile a.shiva-tree {
+  background-image: url('../assets/tree.png');
+  background-position: 6px center;
+  background-size: 20px;
+}
+
+.bom-n6.bom-foundation-wrapper .shivaTile a.shiva-book {
+  background-image: url('../assets/book.png');
+  background-position: 6px center;
+  background-size: 30px;
+}
+
+/* end shiva buttons */
+
+@media screen and (max-width: 63.9375em) {
+  .bom-n6.bom-foundation-wrapper .headerTop .familyLogin .column a {
+    /*font-size: 0.8em;*/
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .headerTop .familyLogin .column i.fa {
+  padding-left: 0.25rem;
+  font-size: 0.75em;
+}
+
+.bom-n6.bom-foundation-wrapper .headerTop .headerContent {
+  position: relative;
+  padding-top: 30px;
+  z-index: 1;
+}
+
+.bom-n6.bom-foundation-wrapper .obitPhotoContainer {
+  position: relative;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-photo-con {
+  position: relative;
+  padding-top: 100%;
+  width: 100%;
+  height: auto;
+  background: #333;
+  border: 2px #fff solid;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.35), inset 0 0 100px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.35), inset 0 0 100px 0 rgba(0, 0, 0, 0.75);
+  overflow: hidden !important;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-photo-con img {
+  border-radius: 0%;
+}
+
+@media screen and (min-width: 64em) {
+  .bom-n6.bom-foundation-wrapper #bom-photo-con {
+    margin-bottom: -50px;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper img.obitPhoto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media (max-width: 63.9375em) {
+
+  .bom-n6.bom-foundation-wrapper .obitName,
+  .bom-n6.bom-foundation-wrapper .dateRange {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.8rem;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .header .headerContent .obitName h1,
+.bom-n6.bom-foundation-wrapper #dm .header .headerContent .obitName h1 {
+  margin-bottom: 0;
+  color: #fff !important;
+  font-size: 2rem !important;
+  font-weight: 800 !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  overflow: visible;
+}
+
+.bom-n6.bom-foundation-wrapper .dateRange {
+  font-size: 1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.bom-n6.bom-foundation-wrapper .social {
+  padding-top: 0.125rem;
+  font-size: 1.5rem;
+}
+
+.bom-n6.bom-foundation-wrapper .headerBottom .socialContainer {
+  background: #fff;
+}
+
+.bom-n6.bom-foundation-wrapper .socialContainer {
+  margin-bottom: .6rem;
+  text-align: center;
+}
+
+.bom-n6.bom-foundation-wrapper .social .tileText {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 0;
+  padding-top: 1.02rem;
+  padding-left: 0;
+  color: #000;
+}
+
+.bom-n6.bom-foundation-wrapper .social i {
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.bom-n6.bom-foundation-wrapper .social a.facebook-share {
+  width: 38px;
+  height: 38px;
+  margin: .4rem .2rem 0rem .2rem;
+  color: #fff !important;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 2.4rem;
+  background: #365c95;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.bom-n6.bom-foundation-wrapper .social a.facebook-share:hover {
+  background: #223670;
+}
+
+.bom-n6.bom-foundation-wrapper .social a.whatsapp-share {
+  width: 38px;
+  height: 38px;
+  margin: .4rem .2rem 0rem .2rem;
+  color: #fff !important;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 2.4rem;
+  background: #1ebea5;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.bom-n6.bom-foundation-wrapper .social a.whatsapp-share:hover {
+  background: #389183;
+}
+
+.bom-n6.bom-foundation-wrapper a.twitter-share {
+  width: 38px;
+  height: 38px;
+  margin: .4rem .2rem 0rem .2rem;
+  color: #fff !important;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 2.4rem;
+  background: #1bb6e7;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.bom-n6.bom-foundation-wrapper a.twitter-share:hover {
+  background: #1679A0;
+}
+
+.bom-n6.bom-foundation-wrapper a.email-share {
+  width: 38px;
+  height: 38px;
+  margin: .4rem .2rem 0rem .2rem;
+  color: #fff !important;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 2.4rem;
+  background: #218b43;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.bom-n6.bom-foundation-wrapper a.email-share:hover {
+  background: #427753;
+}
+
+.bom-n6.bom-foundation-wrapper .fa-rss-square {
+  color: #ff9b00;
+}
+
+.bom-n6.bom-foundation-wrapper .fa-rss-square:hover {
+  color: #B77005;
+}
+
+.bom-n6.bom-foundation-wrapper .fa-print {
+  color: #b3b3b3;
+}
+
+.bom-n6.bom-foundation-wrapper .fa-print:hover {
+  color: #606060;
+}
+
+@media screen and (min-width: 64em) {
+  .bom-n6.bom-foundation-wrapper .ctaContainer {
+    padding-top: 0.4rem;
+  }
+
+  .bom-n6.bom-foundation-wrapper .headerBottom .ctaContainer .row {
+    margin-right: 0;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .cta {
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+}
+
+.bom-n6.bom-foundation-wrapper .cta a {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 0.5rem;
+  height: 40px;
+  color: #fff !important;
+  font-family: 'Open Sans' !important;
+  font-size: 0.9em;
+  font-weight: normal;
+  line-height: 1.1;
+  border-radius: 5px;
+}
+
+.bom-n6.bom-foundation-wrapper .cta a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.125);
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  border-radius: 5px 0 0 5px;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+.bom-n6.bom-foundation-wrapper .cta a:hover:before {
+  width: 100%;
+  background-size: 40px 40px;
+}
+
+.bom-n6.bom-foundation-wrapper .dmMobileBody .dmRespRow .ctaContainer .small-12 {
+  width: auto;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-sendFlowers a {
+  background: #95c13b;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-sendFlowers a:before {
+  background-image: url("../assets/menu-flower-icon.svg");
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-webcast a {
+  background: #a6a6a6;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-webcast a::before {
+  background-image: url("../assets/menu-webcast-icon.svg");
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree a {
+  background: #95c13b;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree a:before {
+  background-image: url("../assets/menu-tree-icon.png");
+}
+
+@media (max-width: 39.9375em) {
+  .bom-n6.bom-foundation-wrapper .cta {
+    text-align: center;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .row.bomNav {
+  font-family: Open Sans !important;
+}
+
+.bom-n6.bom-foundation-wrapper .navigation {
+  padding-top: 1rem;
+  background: #fff;
+}
+
+.bom-n6.bom-foundation-wrapper .navBtn {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1;
+  width: 50%;
+}
+
+.bom-n6.bom-foundation-wrapper .tabs.navigation .navBtn.tabs-title>a,
+.bom-n6.bom-foundation-wrapper .tabs.navigation .navBtn.tabs-title>a:visited {
+  padding: 1.2rem;
+  color: #a4a4a4 !important;
+  font-family: 'Open Sans' !important;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.bom-n6.bom-foundation-wrapper .tabs.navigation .navBtn.is-active.tabs-title>a {
+  color: #555555 !important;
+}
+
+.bom-n6.bom-foundation-wrapper .navBtn.is-active {
+  border-right: none;
+  border-bottom: 4px solid #4069b4;
+}
+
+.bom-n6.bom-foundation-wrapper .tabs {
+  border: none;
+}
+
+.bom-n6.bom-foundation-wrapper .tabs-title>a:focus,
+.bom-n6.bom-foundation-wrapper .tabs-title>a[aria-selected='true'] {
+  background: #ffffff;
+}
+
+.bom-n6.bom-foundation-wrapper .bomContent>.columns {
+  padding: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .bomContent {
+  max-width: 960px;
+  font-size: 16px;
+  background: #f7f5f5;
+  border: none;
+}
+
+@media screen and (min-width: 40em) {
+  .bom-n6.bom-foundation-wrapper .obituaryTile {
+    margin-bottom: 0;
+    min-height: 210px;
+    /*    max-height: 210px;
+    height: 210px;*/
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.accordion {
+  padding: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.accordion .accordion-item {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.accordion .accordion-item:last-of-type {
+  border-bottom: 0;
+}
+
+.bom-n6.bom-foundation-wrapper li.accordion-item.is-active .accordion-title span.tileText.serviceDate {
+  display: none;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.accordion .accordion-title,
+.bom-n6.bom-foundation-wrapper .bomTile.accordion .accordion-content {
+  border: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .accordion-title:hover,
+.bom-n6.bom-foundation-wrapper .accordion-title:focus {
+  background: #fff;
+}
+
+.bom-n6.bom-foundation-wrapper .accordion-title::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  color: #999;
+}
+
+.bom-n6.bom-foundation-wrapper .accordion-title::before {
+  background-image: url('angle-right-solid.png');
+  background-size: 6px 10px;
+  display: inline-block;
+  width: 6px;
+  height: 10px;
+  content:""; 
+}
+
+.bom-n6.bom-foundation-wrapper .is-active>.accordion-title::before {
+  background-image: url('angle-down-solid.png');
+  background-size: 10px 6px;
+  display: inline-block;
+  width: 10px;
+  height: 6px;
+  content:"";  
+}
+
+.bom-n6.bom-foundation-wrapper .serviceLocation,
+.bom-n6.bom-foundation-wrapper .serviceDateTime {
+  /*padding-left: 2rem;*/
+  line-height: 1.2;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceLocation .serviceSectionTitle {
+  margin-top: 1em;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceInfo .serviceEventInfo div {
+  margin-top: 0.3rem;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceSectionTitle {
+  color: #303030;
+  font-weight: bold;
+}
+
+.bom-n6.bom-foundation-wrapper .accordion-content {
+  padding-top: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .service-actions {
+  margin-top: 0.25rem;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceLocation i,
+.bom-n6.bom-foundation-wrapper .serviceDateTime i {
+  margin: 0 0.35rem 0 -1.5rem;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceDateTime {
+  /*margin-top: 1rem;*/
+}
+
+@media screen and (max-width: 39.9375em) {
+
+  .bom-n6.bom-foundation-wrapper .serviceInfo-container .cta.cta-sendFlowers,
+  .bom-n6.bom-foundation-wrapper .serviceInfo-container .cta.cta-webcast {
+    margin-top: 1rem;
+  }
+
+  .bom-n6.bom-foundation-wrapper .serviceInfo-container .cta.cta-sendFlowers a,
+  .bom-n6.bom-foundation-wrapper .serviceInfo-container .cta.cta-webcast a,
+  .bom-n6.bom-foundation-wrapper .sendFlowersTile .cta.cta-sendFlowers a {
+    padding-left: 50px;
+  }
+
+  .bom-n6.bom-foundation-wrapper .cta a {
+    padding-left: 50px;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    text-align: left;
+    line-height: 18px;
+  }
+
+  .bom-n6.bom-foundation-wrapper .cta-sendFlowersImg {
+    text-align: center;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .gMaps {
+  padding: .6rem 0rem;
+}
+
+.bom-n6.bom-foundation-wrapper .division {
+  height: 1px;
+  margin: 1rem 0rem;
+  background: #e1e1e1;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureTile {
+  height: 192px;
+}
+
+.bom-n6.bom-foundation-wrapper span.gestureTile-flowers,
+.bom-n6.bom-foundation-wrapper span.gestureTile-trees {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 1em;
+  height: 100%;
+  border: 1px solid #e1e1e1;
+}
+
+.bom-n6.bom-foundation-wrapper span.gestureTile-flowers {
+  margin-right: 0.25rem;
+  background: url(../assets/gestureTile-sendFlowers.jpg) 50%/cover no-repeat;
+}
+
+.bom-n6.bom-foundation-wrapper span.gestureTile-trees {
+  margin-left: 0.25rem;
+  background: url(../assets/gestureTile-plantTree.jpg) 50%/cover no-repeat;
+}
+
+.bom-n6.bom-foundation-wrapper span.gestureTile-flowers a,
+.bom-n6.bom-foundation-wrapper span.gestureTile-trees a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 63.9375em) {
+
+  .bom-n6.bom-foundation-wrapper span.gestureTile-flowers,
+  .bom-n6.bom-foundation-wrapper span.gestureTile-trees {
+    /*margin-left: 0;*/
+    /*margin-right: 0;*/
+  }
+
+  .bom-n6.bom-foundation-wrapper .gestureTile:nth-child(1) {
+    /*margin-bottom: 0.5rem;*/
+  }
+}
+
+.bom-n6.bom-foundation-wrapper span.gestureTile-flowers:before,
+.bom-n6.bom-foundation-wrapper span.gestureTile-trees:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+  opacity: 0.5;
+  -webkit-transition: ease 500ms;
+  transition: ease 500ms;
+  z-index: 0;
+}
+
+.bom-n6.bom-foundation-wrapper span.gestureTile-flowers:hover:before,
+.bom-n6.bom-foundation-wrapper span.gestureTile-trees:hover:before {
+  opacity: 0.75;
+}
+
+.bom-n6.bom-foundation-wrapper span.gestureTile-text {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureTile h4 {
+  margin: 0;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureTile h4 i {
+  font-size: 0.5em;
+}
+
+.bom-n6.bom-foundation-wrapper .webcastingTile h3,
+.bom-n6.bom-foundation-wrapper .webcastingStatus {
+  display: inline-block;
+}
+
+.bom-n6.bom-foundation-wrapper .webcastingStatus {
+  position: relative;
+  top: -0.125rem;
+  margin-left: 0.25rem;
+  padding: 0 0.25rem;
+  font-size: 0.65em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.bom-n6.bom-foundation-wrapper .webcastingStatus.webcastingLive {
+  color: #fff;
+  background: red;
+}
+
+.bom-n6.bom-foundation-wrapper .webcastingStatus.webcastingNotLive {
+  background: #f7f5f6;
+}
+
+.bom-n6.bom-foundation-wrapper .photos-container,
+.bom-n6.bom-foundation-wrapper .videos-container {
+  margin: 0.5rem 0;
+}
+
+.bom-n6.bom-foundation-wrapper .media-section-container {
+  position: relative;
+  width: 100%;
+}
+
+.bom-n6.bom-foundation-wrapper span.photosVideos-thumb {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding-bottom: 25%;
+  width: calc(100%/4 - 4px);
+  height: auto;
+  max-height: 100px;
+  background: #fafafa;
+  -webkit-box-shadow: inset 0 0 0 1px #e0e0e0;
+  box-shadow: inset 0 0 0 1px #e0e0e0;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-content span.photosVideos-thumb {
+  /*margin: 0 0.25rem 0.25rem 0;*/
+}
+
+@media screen and (max-width: 39.9375em) {
+  .bom-n6.bom-foundation-wrapper span.photosVideos-thumb {
+    padding-bottom: 50%;
+    width: calc(100%/2 - 4px);
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .photos-container span.photosVideos-thumb:before,
+.bom-n6.bom-foundation-wrapper .videos-container span.photosVideos-thumb:before,
+.bom-n6.bom-foundation-wrapper .media-parent span.photosVideos-thumb:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 0 0 1px #e0e0e0;
+  box-shadow: inset 0 0 0 1px #e0e0e0;
+  -webkit-transition: ease 200ms;
+  transition: ease 200ms;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.bom-n6.bom-foundation-wrapper .photos-container span.photosVideos-thumb:last-of-type:before {
+  content: attr(data-before);
+}
+
+.bom-n6.bom-foundation-wrapper .videos-container span.photosVideos-thumb:before {
+  content: "\f144";
+  font-family: "Font Awesome 5 Free";
+  font-size: 2em;
+  background: rgba(0, 0, 0, 0.125);
+}
+
+.bom-n6.bom-foundation-wrapper .photos-container span.photosVideos-thumb:hover:before,
+.bom-n6.bom-foundation-wrapper .videos-container span.photosVideos-thumb:hover:before,
+.bom-n6.bom-foundation-wrapper .media-parent span.photosVideos-thumb:hover:before {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.bom-n6.bom-foundation-wrapper .photos-container span.photosVideos-thumb:nth-child(4):before,
+.bom-n6.bom-foundation-wrapper .videos-container span.photosVideos-thumb:nth-child(4):before,
+.bom-n6.bom-foundation-wrapper .media-parent span.photosVideos-thumb:nth-child(4):before {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.bom-n6.bom-foundation-wrapper span.photosVideos-thumb img,
+.bom-n6.bom-foundation-wrapper span.photosVideos-thumb video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: auto;
+  max-width: none;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile ul.donations-list {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile ul.donations-list li {
+  margin-top: 0.5rem;
+  list-style: none;
+  line-height: 1.2;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile ul.donations-list li:before {
+  content: "\f004";
+  font-family: "Font Awesome 5 Free";
+  margin: 0 0.5em 0 -1.5em;
+  color: #e9e9e9;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile ul.donations-list li a {
+  font-size: 0.8em;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.photographicMemoriesTile a.photographicMemories-link,
+.bom-n6.bom-foundation-wrapper .bomTile.recordingTile a.serviceRecording-link,
+.bom-n6.bom-foundation-wrapper .bomTile.recordingTile a.memorialProgram-link,
+.bom-n6.bom-foundation-wrapper .bomTile.photographicMemoriesTile a.photographicMemories-link,
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile a.donations-link,
+.bom-n6.bom-foundation-wrapper .bomTile.flowerTile a.purchaseFlowers-link,
+.bom-n6.bom-foundation-wrapper .bomTile.photosVideosTile a.video-link {
+  display: block;
+  margin-top: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .servicesTile.accordion .bom-button.bom-webcast-watch {
+  padding: 0.25rem 1rem 0.25rem 0.25rem;
+  padding-right: 1rem;
+  background: #fafafa none repeat scroll 0% 0%;
+  border: 1px solid #e1e1e1;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.063);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.063);
+  display: inline-block;
+}
+
+.bom-n6.bom-foundation-wrapper .servicesTile.accordion a.webcasting-link {
+  font-size: 14px;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.recordingTile .serviceRecording-link i,
+.bom-n6.bom-foundation-wrapper .bomTile.photographicMemoriesTile a.photographicMemories-link i,
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile a.donations-link i,
+.bom-n6.bom-foundation-wrapper .bomTile.flowerTile a.purchaseFlowers-link i,
+.bom-n6.bom-foundation-wrapper .bomTile.webcastingTile a.webcasting-link i,
+.bom-n6.bom-foundation-wrapper .bomTile.photosVideosTile a.video-link i,
+.bom-n6.bom-foundation-wrapper .servicesTile.accordion a.webcasting-link i {
+  position: relative;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  color: #707070;
+  text-align: center;
+  font-size: 1.5em;
+  background: #f5f6f6;
+  border: 1px solid #e1e1e1;
+  -webkit-transition: ease 250ms;
+  transition: ease 250ms;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.recordingTile .serviceRecording-link i:before,
+.bom-n6.bom-foundation-wrapper .bomTile.photographicMemoriesTile a.photographicMemories-link i:before,
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile a.donations-link i:before,
+.bom-n6.bom-foundation-wrapper .bomTile.flowerTile a.purchaseFlowers-link i:before,
+.bom-n6.bom-foundation-wrapper .bomTile.webcastingTile a.webcasting-link i:before,
+.bom-n6.bom-foundation-wrapper .bomTile.photosVideosTile a.video-link i:before,
+.bom-n6.bom-foundation-wrapper .servicesTile.accordion a.webcasting-link i:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.recordingTile .serviceRecording-link:hover i,
+.bom-n6.bom-foundation-wrapper .bomTile.recordingTile .serviceRecording-link:focus i,
+.bom-n6.bom-foundation-wrapper .bomTile.photographicMemoriesTile a.photographicMemories-link:hover i,
+.bom-n6.bom-foundation-wrapper .bomTile.photographicMemoriesTile a.photographicMemories-link:focus i,
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile a.donations-link:hover i,
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile a.donations-link:focus i,
+.bom-n6.bom-foundation-wrapper .bomTile.flowerTile a.purchaseFlowers-link:hover i,
+.bom-n6.bom-foundation-wrapper .bomTile.flowerTile a.purchaseFlowers-link:focus i,
+.bom-n6.bom-foundation-wrapper .bomTile.webcastingTile a.webcasting-link:hover i,
+.bom-n6.bom-foundation-wrapper .bomTile.webcastingTile a.webcasting-link:focus i,
+.bom-n6.bom-foundation-wrapper .bomTile.photosVideosTile a.video-link i:hover,
+.bom-n6.bom-foundation-wrapper .bomTile.photosVideosTile a.video-link i:focus,
+.bom-n6.bom-foundation-wrapper .servicesTile.accordion a.webcasting-link i:hover,
+.bom-n6.bom-foundation-wrapper .servicesTile.accordion a.webcasting-link i:focus {
+  color: #808080;
+  background: #e4e7e7;
+  border: 1px solid #ccc;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile a.donations-link {
+  clear: both;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile a.donations-link i {
+  float: left;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.recordingTile .memorialProgram-link img {
+  margin-right: 1rem;
+  -webkit-transition: ease 250ms;
+  transition: ease 250ms;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.recordingTile .memorialProgram-link:hover img,
+.bom-n6.bom-foundation-wrapper .bomTile.recordingTile .memorialProgram-link:hover img {
+  opacity: 0.75;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.recordingTile #musicPreview embed {
+  margin-top: 1rem;
+  height: 165px;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.webcastingTile .bom-webcast-event-list {
+  margin-top: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.webcastingTile .bom-webcast-event-list:nth-child(1) {
+  margin-top: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.webcastingTile .bom-webcast-event-description {
+  margin-bottom: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.webcastingTile .bom-webcast-watch {
+  margin-top: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.webcastingTile .webcastText.tileText a {
+  color: #2ba6cb !important;
+}
+
+.bom-n6.bom-foundation-wrapper .loader {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.bom-n6.bom-foundation-wrapper .loader-spin {
+  color: #FFF;
+  font-size: 5em;
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+.bom-n6.bom-foundation-wrapper #tribute-wall label,
+.bom-n6.bom-foundation-wrapper #tribute-wall div {
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+}
+
+.bom-n6.bom-foundation-wrapper .condolence-thumb {
+  /*margin: 2px;*/
+}
+
+.bom-n6.bom-foundation-wrapper .media-item-content {
+  height: 100%;
+  width: 100%;
+}
+
+.bom-n6.bom-foundation-wrapper .condolence-remainder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Open Sans !important;
+  font-size: 1.5rem;
+  font-weight: 900;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.bom-n6.bom-foundation-wrapper .media-item {
+  position: relative;
+  /*width: 80px;*/
+  width: calc(100%/5 - 0.25rem);
+  height: auto;
+  float: left;
+  /*padding: 3px;*/
+  padding-bottom: 20%;
+  margin: 0 0.25rem 0.25rem 0;
+  background: #f5f5f5;
+  overflow: hidden;
+}
+
+.bom-n6.bom-foundation-wrapper .hidden-media-item {
+  display: none;
+}
+
+.bom-n6.bom-foundation-wrapper .media-item-container .preview-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+}
+
+.bom-n6.bom-foundation-wrapper .media-item-container {
+  margin: 0.1em;
+  /* hide invisible boxes creating blank space */
+  display: none;
+}
+
+.bom-n6.bom-foundation-wrapper .media-item .preview-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+}
+
+.bom-n6.bom-foundation-wrapper .addphoto-media-list {
+  /*GD-Jan-11-19*/
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.bom-n6.bom-foundation-wrapper .condolence-media-list {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.bom-n6.bom-foundation-wrapper .delete-media {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  background: url(../assets/delete-media.png);
+  display: none;
+}
+
+.bom-n6.bom-foundation-wrapper .delete-media:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 5px #000;
+  box-shadow: 0px 0px 5px #000;
+  display: block;
+}
+
+.bom-n6.bom-foundation-wrapper img.preview-img:hover+div.delete-media {
+  display: block !important;
+}
+
+.bom-n6.bom-foundation-wrapper video.preview-img:hover+div.delete-media {
+  display: block !important;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile {
+  padding: 0;
+  font-size: 0.8em;
+  position: relative;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile textarea#leaveCondolence {
+  padding: 1.4rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .tributeActions-description {
+  padding: 0.5rem 1.4rem;
+  border-top: 1px solid #e1e1e1;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .tributeActionsContainer {
+  padding: 0 2.2rem 1.4rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .tributeActions.user-details input {
+    margin: 0 0.5rem 1rem;
+    max-width: calc(50% - 1rem);
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile textarea#leaveCondolence {
+  min-height: 100px;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile textarea#leaveCondolence::placeholder {
+  color: #808080;
+}
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .row.postButton {
+  margin: 0;
+  padding: 0 0.5rem;
+}
+
+.bom-n6.bom-foundation-wrapper .privateCondolence-label {
+  font-size: 0.75em;
+  color: #707070;
+}
+
+@media screen and (min-width: 39.9375em) {
+  .bom-n6.bom-foundation-wrapper .privateCondolence-label {
+    margin-top: 0.25rem;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile button.button.post {
+  padding: 0.5rem 2rem;
+  color: #707070;
+  background-color: #e7e7e7;
+  border-radius: 20px;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile button.button.post:hover,
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile button.button.post:focus {
+  background-color: #f7f5f6;
+  color: #4069b4 !important;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .tributeAction {
+  padding: 0.25rem;
+  background: #f7f5f6;
+  border-radius: 5rem;
+  -webkit-transition: ease 200ms;
+  transition: ease 200ms;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .tributeAction {
+  max-width: 49%;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .tributeAction:hover {
+  background: #e7e7e7;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .tributeAction a {
+  color: #707070;
+  font-weight: 100;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeAction a i {
+  font-size: 0.85em;
+  color: #0c4d8a;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .bom-n6.bom-foundation-wrapper .tributeAction a i {
+    display: none;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.addPhotosTile {
+  padding: 0;
+  font-size: 0.8em;
+  position: relative;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .bom-n6.bom-foundation-wrapper .bomTile.addPhotosTile .addPhotoActions-container {
+    padding: 0 1rem 1.4rem;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.addPhotosTile .row.post-button {
+  margin: 0;
+  padding: 0 0.5rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.addPhotosTile button.button.post,
+.bom-n6.bom-foundation-wrapper .bomTile.photosVideosTile a.addPhotos {
+  padding: 0.5rem 2rem;
+  color: #707070 !important;
+  background-color: #e7e7e7;
+  border-radius: 20px;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.addPhotosTile button.button.post:hover,
+.bom-n6.bom-foundation-wrapper .bomTile.addPhotosTile button.button.post:focus,
+.bom-n6.bom-foundation-wrapper .bomTile.photosVideosTile a.addPhotos:hover,
+.bom-n6.bom-foundation-wrapper .bomTile.photosVideosTile a.addPhotos:focus {
+  background-color: #f7f5f6;
+  color: #4069b4 !important;
+}
+
+.bom-n6.bom-foundation-wrapper .AddPhotoMsg {
+  padding-top: 2rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.sendFlowersTile {
+  padding: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.plantTreeTile {
+  background: url("../assets/plantTree-cta.jpg") bottom right no-repeat;
+}
+
+@media screen and (max-width: 39.9375rem) {
+  .bom-n6.bom-foundation-wrapper .bomTile.plantTreeTile {
+    background-size: contain;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.sendFlowersTile span,
+.bom-n6.bom-foundation-wrapper .bomTile.plantTreeTile span {
+  color: #000;
+  font-weight: bold;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.sendFlowersTile .sendFlowers-actions,
+.bom-n6.bom-foundation-wrapper .bomTile.plantTreeTile .plantTree-actions {
+  margin: 1rem 0 0 0;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.sendFlowersTile .cta,
+.bom-n6.bom-foundation-wrapper .bomTile.plantTreeTile .cta {
+  padding: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.sendFlowersTile .guaranteedDelivery {
+  padding-top: 0;
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 40em) {
+  .bom-n6.bom-foundation-wrapper .bomTile.sendFlowersTile .guaranteedDelivery {
+    padding-left: 0;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-photo img {
+  border-radius: 50%;
+}
+
+.bom-n6.bom-foundation-wrapper .badge.secondary.tribute_thumb {
+  width: 100%;
+  height: 0px;
+  max-width: 100px;
+  max-height: 100px;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  color: #aaa;
+  font-size: 1.35em !important;
+  font-weight: 800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-reply .badge.secondary.tribute_thumb {
+  width: 100%;
+  max-width: 90px;
+  max-height: 90px;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  font-size: 0.9rem !important;
+}
+
+.bom-n6.bom-foundation-wrapper .featured .badge.secondary.tribute_thumb,
+.bom-n6.bom-foundation-wrapper .featured .tributePost-reply .badge.secondary.tribute_thumb {
+  /*background: #fff;*/
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-monogram span.monogram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #aaaaaa;
+  font-size: 1.5em;
+  font-weight: 800;
+  background: #eeeeee;
+  border-radius: 50%;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-content {
+  padding: 0;
+  padding-right: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-reply,
+.bom-n6.bom-foundation-wrapper .tributePost-showComments {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e6e6e6;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-reply {
+  margin-bottom: -1rem;
+  padding: 1rem 0;
+  background: #fafafa;
+  -webkit-transition: ease 500ms;
+  transition: ease 500ms;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-reply:hover {
+  background: #fcfcfc;
+}
+
+.bom-n6.bom-foundation-wrapper .familyInteractive-content .tributePost-reply {
+  margin-bottom: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .tributePost-reply .familyMember {
+  color: #707070;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .tributePost-reply .familyMember i {
+  color: #55be45;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-showComments {
+  text-align: center;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-showComments a {
+  font-size: 0.8em;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group {
+  position: relative;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment textarea.comment-text {
+  margin: 0 0.5rem 0 0;
+  height: 1.9rem;
+  font-size: 0.8em;
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment input.button,
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group> :last-child>input.button {
+  padding: 0.5rem 1.5rem;
+  color: #707070;
+  font-size: 0.9em;
+  background-color: #e7e7e7;
+  border-radius: 20px;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment input.button:hover,
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment input.button:focus,
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group> :last-child>input.button:hover,
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group> :last-child>input.button:focus {
+  background-color: #f7f5f6;
+}
+
+@media screen and (min-width: 40em) {
+  .bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group .comment-text-container {
+    padding-left: 0.4rem;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group .comment-text-container {
+  padding-right: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group .input-group-button {
+  float: right;
+  /*margin-right: -0.9375rem;*/
+}
+
+@media screen and (max-width: 39.9375em) {
+  .bom-n6.bom-foundation-wrapper .tributeTile .leave-comment textarea.comment-text {
+    min-height: 5.5rem;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .gestureItem {
+  margin-top: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .row .row.gestureItem.media-parent {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description {
+  padding: 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description .tileText,
+.bom-n6.bom-foundation-wrapper .gestureItem-description .gestureItem-links,
+.bom-n6.bom-foundation-wrapper .tributeTile .tributePost-details {
+  font-size: 0.76em;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description .tileText {
+  width: 100%;
+  /*height: 28px;*/
+  position: relative;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description .tileText span:after {
+  content: "\0000a0";
+  position: absolute;
+  width: 1000px;
+  background: #fff;
+  z-index: 1;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-content .row.gestureItem.gestureType-photo,
+.bom-n6.bom-foundation-wrapper .tributePost-content .row.gestureItem.gestureType-video {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description .gestureItem-links {
+  margin-top: 0.5rem;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description .gestureItem-links a,
+.bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description .gestureItem-links a:visited {
+  color: #95c13b !important;
+  font-size: 1.06em;
+  font-weight: bold;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description .gestureItem-links a.sendFlowers,
+.bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description .gestureItem-links a.sendFlowers:visited {
+  color: #d85e5d !important;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description .gestureItem-links a.plantTree,
+.bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description .gestureItem-links a.plantTree:visited {
+  color: #95c13b !important;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureItem .gestureItem-description .gestureItem-links a:hover {
+  opacity: 0.7 !important;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .tributePost-details {
+  margin-top: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .tributePost-reply .tributePost-details {
+  margin-top: 0.125rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-controls {
+  /*display: none; TEMPORARILY HIDDEN */
+}
+
+.bom-n6.bom-foundation-wrapper ul.tributePost-controls-menu {
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.125);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.125);
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-controls .dropdown.menu>li.is-dropdown-submenu-parent>a {
+  padding-right: 0rem;
+  color: #898989;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-controls .dropdown.menu>li.is-dropdown-submenu-parent:hover>a {
+  color: #5493ce;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-controls .dropdown.menu>li.is-dropdown-submenu-parent>a::after {
+  display: none;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-controls .dropdown.menu>li>ul>li>a {
+  padding: 0.5rem 1rem;
+  color: #707070;
+  font-family: 'Open Sans' !important;
+  font-size: 0.8em;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-controls .dropdown.menu>li>ul>li>a:hover,
+.bom-n6.bom-foundation-wrapper .tributePost-controls .dropdown.menu>li>ul>li>a:focus {
+  background: rgba(0, 0, 0, 0.025);
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-controls .dropdown.menu>li>ul>li>a>i {
+  margin-right: 0.75rem;
+  /*color: #cfcfcf;*/
+}
+
+.bom-n6.bom-foundation-wrapper .row .row.pagination {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.bom-n6.bom-foundation-wrapper .pagination li {
+  position: relative;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .pagination li.pagination-button {
+  cursor: pointer;
+}
+
+.bom-n6.bom-foundation-wrapper .pagination li.pagination-button.disabled {
+  cursor: not-allowed;
+}
+
+.bom-n6.bom-foundation-wrapper .pagination a,
+.bom-n6.bom-foundation-wrapper .pagination button {
+  width: 100%;
+  height: 100%;
+  color: #707070;
+  border-radius: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .pagination li.pagination-button:hover,
+.bom-n6.bom-foundation-wrapper .pagination li.pagination-button:focus,
+.bom-n6.bom-foundation-wrapper .pagination button:hover,
+.bom-n6.bom-foundation-wrapper .pagination button:focus {
+  background: rgba(0, 0, 0, 0.025);
+}
+
+.bom-n6.bom-foundation-wrapper .pagination-next a::after,
+.bom-n6.bom-foundation-wrapper .pagination-next.disabled::after,
+.bom-n6.bom-foundation-wrapper .pagination-previous a::before,
+.bom-n6.bom-foundation-wrapper .pagination-previous.disabled::before {
+  content: "";
+}
+
+.bom-n6.bom-foundation-wrapper .pagination li.pagination-button {
+  display: inline-block;
+  width: 40px;
+  height: 45px;
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 0;
+  -webkit-transition: ease 150ms;
+  transition: ease 150ms;
+}
+
+.bom-n6.bom-foundation-wrapper .pagination li i.fas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.bom-n6.bom-foundation-wrapper .pagination li.pagination-pageCount {
+  display: block;
+  margin: 0 2rem;
+  padding: 0.75em 0;
+  color: #707070;
+  font-family: 'Open Sans' !important;
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .subscribeUpdates h4 {
+  cursor: pointer;
+  -webkit-transition: ease 200ms;
+  transition: ease 200ms;
+}
+
+.bom-n6.bom-foundation-wrapper .subscribeUpdates h4:hover,
+.bom-n6.bom-foundation-wrapper .subscribeUpdates h4:focus {
+  color: #000;
+}
+
+.bom-n6.bom-foundation-wrapper .focus {
+  position: relative;
+  z-index: 99;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.bom-n6.bom-foundation-wrapper .blanket-dim-all-content {
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
+  z-index: 10;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+@media screen and (max-width: 39.9375em) {
+
+  .bom-n6.bom-foundation-wrapper .bomTile.familyInteractiveTile .columns.leftColumn,
+  .bom-n6.bom-foundation-wrapper .bomTile.familyInteractiveTile .columns.rightColumn {
+    padding: 0;
+  }
+
+  .bom-n6.bom-foundation-wrapper .bomTile.familyInteractiveTile li.tabs-title>a {
+    padding: 0.25rem;
+    font-size: 0.75em;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .footer {
+  padding: 2rem;
+  color: #707070;
+}
+
+.bom-n6.bom-foundation-wrapper .footer .footer-admin {
+  margin: 1rem auto;
+  font-size: 0.9em;
+}
+
+.bom-n6.bom-foundation-wrapper .footer .footer-admin a {
+  color: #707070;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.bom-n6.bom-foundation-wrapper .footer .footer-admin a:hover,
+.bom-n6.bom-foundation-wrapper .footer .footer-admin a:focus {
+  color: #000;
+}
+
+.bom-n6.bom-foundation-wrapper .footer .footer-boilerplate {
+  font-family: 'Open Sans' !important;
+  font-size: 0.75em;
+}
+
+.bom-n6.bom-foundation-wrapper .footer .footer-boilerplate a {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.bom-n6.bom-foundation-wrapper table.adp-placemark,
+.bom-n6.bom-foundation-wrapper table.adp-placemark tbody,
+.bom-n6.bom-foundation-wrapper table.adp-directions tbody {
+  border: 0;
+}
+
+.bom-n6.bom-foundation-wrapper table.adp-directions tbody tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.bom-n6.bom-foundation-wrapper table.adp-directions tbody .adp-step,
+.bom-n6.bom-foundation-wrapper table.adp-directions tbody .adp-substep {
+  padding-bottom: 1rem;
+  border: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .adp-legal {
+  font-size: 0.75em;
+}
+
+.bom-n6.bom-foundation-wrapper #photographic-memories #in-memoryof-container {
+  margin: auto;
+  padding: 1rem 0;
+  width: 80%;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.bom-n6.bom-foundation-wrapper #photographic-memories #in-memoryof-container #in-memoryof-text {
+  position: relative;
+  color: #8f8f8f;
+}
+
+.bom-n6.bom-foundation-wrapper #photographic-memories #in-memoryof-container #in-memoryof-text:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 1px;
+  background: #000;
+}
+
+.bom-n6.bom-foundation-wrapper #photographic-memories #in-memoryof-container #in-memoryof-name {
+  color: #fff;
+  font-size: 5vh;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.bom-n6.bom-foundation-wrapper .photographic-memories .photo-mem-prev-btn,
+.bom-n6.bom-foundation-wrapper .photographic-memories .photo-mem-next-btn {
+  position: absolute;
+  top: 50%;
+  margin: 15px;
+  height: auto;
+  width: auto;
+  font-size: 5vh;
+  color: rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  z-index: 10;
+  -webkit-transition: ease 250ms;
+  transition: ease 250ms;
+}
+
+@media screen and (max-width: 39.9375em) {
+
+  .bom-n6.bom-foundation-wrapper .photographic-memories .photo-mem-prev-btn,
+  .bom-n6.bom-foundation-wrapper .photographic-memories .photo-mem-next-btn {
+    position: fixed;
+    top: 40px;
+    margin: 0;
+    padding: 0.5rem;
+    width: 32px;
+    font-size: 1em;
+    background: #000;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .photographic-memories .photo-mem-prev-btn:hover,
+.bom-n6.bom-foundation-wrapper .photographic-memories .photo-mem-prev-btn:focus,
+.bom-n6.bom-foundation-wrapper .photographic-memories .photo-mem-next-btn:hover,
+.bom-n6.bom-foundation-wrapper .photographic-memories .photo-mem-next-btn:focus {
+  color: white;
+}
+
+.bom-n6.bom-foundation-wrapper .photographic-memories .photo-mem-prev-btn {
+  left: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .photographic-memories .photo-mem-next-btn {
+  right: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .photographic-memories #main-photo-memories-content {
+  text-align: center;
+}
+
+.bom-n6.bom-foundation-wrapper .photographic-memories img#photo-mem-image {
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);*/
+  /* breaks in Edge */
+  max-height: 80vh;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0 10px 65px #000;
+  box-shadow: 0 10px 65px #000;
+}
+
+.bom-n6.bom-foundation-wrapper .photographic-memories #music-controls {
+  /*position: absolute;*/
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.075);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.bom-n6.bom-foundation-wrapper .photographic-memories #audio-player {
+  background: #f1f3f4;
+}
+
+@media screen and (min-width: 850px) and (max-width: 63.9375em) {
+  .bom-n6.bom-foundation-wrapper .small-3.medium-2.columns.tributePost-photo {
+    padding-right: 40px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 39.9375em) {
+  .bom-n6.bom-foundation-wrapper .small-3.medium-2.columns.tributePost-photo {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bom-n6.bom-foundation-wrapper .badge.secondary.tribute_thumb {
+    font-size: .8em !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bom-n6.bom-foundation-wrapper .badge.secondary.tribute_thumb {
+    font-size: .8em !important;
+  }
+
+  .bom-n6.bom-foundation-wrapper .tributePost-reply .badge.secondary.tribute_thumb {
+    font-size: .8em !important;
+  }
+}
+
+.bom-n6.bom-foundation-wrapper .row.bomNav {
+  min-height: 60px;
+}
+
+.bom-n6.bom-foundation-wrapper h2.columnTitle.photoTitle {
+  display: none;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile {
+  margin: 0.6rem 0rem;
+  border: none;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.sendFlowersTile {
+  margin-bottom: 0;
+  /* this is the only tile that seems to gain additional padding */
+}
+
+.bom-n6.bom-foundation-wrapper .bomContent .leaveCondolenceAction {
+  margin-top: .6rem;
+  padding: .8rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomContent .leaveCondolenceAction .row {
+  margin: 0rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomContent .leaveCondolenceAction a,
+.bom-n6.bom-foundation-wrapper .loadMoreMemories a,
+.bom-n6.bom-foundation-wrapper .loadMoreMemories a:visited {
+  color: #4069b4 !important;
+  font-family: 'Open Sans' !important;
+  font-size: .9rem;
+  font-weight: 700;
+  text-decoration: underline !important;
+}
+
+.bom-n6.bom-foundation-wrapper .row.titleRow {
+  margin: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .row .row .printable {
+  text-align: right;
+}
+
+.bom-n6.bom-foundation-wrapper .headerBottom .cta a {
+  height: auto;
+  min-height: 50px;
+  padding: 0.2rem 50px;
+  font-size: 1rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceTile {
+  background: #fff;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceTile .row.titleRow {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceLocation .serviceSectionTitle a.open-directions.actionLink {
+  padding: 0rem 0.6rem;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceWebcast.serviceDateTime *,
+.bom-n6.bom-foundation-wrapper .serviceDateTime * {
+  margin: 0rem;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceWebcast.serviceDateTime {
+  margin-top: 1em;
+  color: #4069b4;
+  font-size: 0.8rem;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceWebcast.serviceDateTime i {
+  margin-right: 0.4rem;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceInfo-container .cta {
+  font-family: 'Open Sans' !important;
+}
+
+.bom-n6.bom-foundation-wrapper .serviceInfo-container .cta.cta-sendFlowers,
+.bom-n6.bom-foundation-wrapper .serviceInfo-container .cta.cta-webcast {
+  margin-top: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .accordion-title::before {
+  top: 40%;
+}
+
+.bom-n6.bom-foundation-wrapper .is-active>.accordion-title::before {
+  top: 50%;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile a.donations-link {
+  width: 100%;
+  margin-top: .6rem;
+  margin-bottom: .6rem;
+  padding: 0rem;
+  color: #258faf !important;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.donationsTile a.donations-link {
+  min-height: 40px;
+  color: #274781 !important;
+}
+
+.bom-n6.bom-foundation-wrapper .subscribeUpdates {
+  padding: 1rem 0rem;
+  font-family: 'Open Sans' !important;
+  background: #fff;
+}
+
+.bom-n6.bom-foundation-wrapper .row.subscribeUpdates.text-center .button {
+  width: 100%;
+  margin-bottom: 0rem;
+  padding: 1rem .2rem;
+  color: #555555 !important;
+  font-size: .8rem;
+  font-weight: 700;
+  background: #f2f2f2;
+  border-radius: 6px;
+}
+
+.bom-n6.bom-foundation-wrapper .row.subscribeUpdates.text-center .button:hover {
+  background: #c5c5c5 !important;
+}
+
+.bom-n6.bom-foundation-wrapper a.lightCandle,
+.bom-n6.bom-foundation-wrapper a.sendFlowers,
+.bom-n6.bom-foundation-wrapper a.plantTree,
+.bom-n6.bom-foundation-wrapper a.lightCandle:visited,
+.bom-n6.bom-foundation-wrapper a.sendFlowers:visited,
+.bom-n6.bom-foundation-wrapper a.plantTree:visited {
+  color: #84ac33 !important;
+  text-decoration: underline !important;
+}
+
+.bom-n6.bom-foundation-wrapper a.lightCandle:hover,
+.bom-n6.bom-foundation-wrapper a.sendFlowers:hover,
+.bom-n6.bom-foundation-wrapper a.plantTree:hover {
+  color: #668821 !important;
+}
+
+.bom-n6.bom-foundation-wrapper .button.filterType {
+  margin: 0.6rem;
+  padding: 0.4rem;
+  border-radius: 3px;
+}
+
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description a.flowers-link {
+  color: #626262 !important;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile .tileText .sendFlowers-actions .cta-sendFlowers {
+  margin-bottom: .6rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile .tileText .sendFlowers-actions span {
+  color: #b3b3b3 !important;
+  font-size: .86rem !important;
+  font-style: italic;
+  display: block;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile .tileText .cta-sendFlowers-guaranteed {
+  padding-top: 0.4rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tileText,
+.bom-n6.bom-foundation-wrapper .sendFlowers-actions a,
+.bom-n6.bom-foundation-wrapper .sendFlowers-actions a:visited {
+  font-size: 0.9rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile span.tileText {
+  font-size: 0.7rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .tributePost-message {
+  padding-top: .3rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .tributePost-reply .tributePost-message {
+  padding-top: .1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-controls {
+  right: 1.2rem;
+  position: absolute;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.sendFlowersTile .mobile-flowers-cta {
+  padding-left: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.sendFlowersTile .sendFlowers-actions {
+  margin-top: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tribute-list .tributeTile {
+  padding-bottom: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-row {
+  margin-left: -1.4rem !important;
+  margin-right: -1.4rem !important;
+  border-top: 1px solid #e4e4e4;
+}
+
+.bom-n6.bom-foundation-wrapper .row.tributePost-links {
+  margin: 0;
+  text-align: left;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-links {
+  padding-top: 0.8rem;
+  text-align: center;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-links .comment,
+.bom-n6.bom-foundation-wrapper .tributePost-links .share {
+  color: #626262 !important;
+  font-weight: 500;
+  line-height: 1.2rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributePost-links .comment:hover,
+.bom-n6.bom-foundation-wrapper .tributePost-links .share:hover {
+  color: #2c2c2c !important;
+}
+
+.bom-n6.bom-foundation-wrapper .gestureItem {
+  padding-bottom: .8rem;
+}
+
+.bom-n6.bom-foundation-wrapper .loadMoreMemories.tributes {
+  margin-bottom: .6rem;
+  padding: .8rem;
+}
+
+.bom-n6.bom-foundation-wrapper .loadMoreMemories.tributes .row {
+  margin: 0;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .share-tribute.row {
+  padding-top: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .share-tribute.row .small-12.columns.text-center {
+  color: #626262;
+  font-size: .9rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment.row,
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group {
+  margin: 0rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment.row {
+  margin-top: 0.6rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group .comment-text-container {
+  padding: 0rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group .input-group-button {
+  width: 100%;
+  display: block;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group .button-wrapper {
+  padding: 0rem;
+  padding-top: 0.6rem;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group .button-wrapper input.button {
+  width: 100%;
+  padding: 0.85em 1em;
+  color: #fff;
+  background: #0b4f89;
+  border-radius: 3px;
+}
+
+.bom-n6.bom-foundation-wrapper .cta a.button {
+  display: initial !important;
+}
+
+.bom-n6.bom-foundation-wrapper .tributeTile .leave-comment .input-group .button-wrapper input.button:hover {
+  background: #073d6d;
+}
+
+.bom-n6.bom-foundation-wrapper form#tribute-wall .row {
+  margin: 0rem .6rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile textarea#leaveCondolence {
+  margin-bottom: 0rem;
+  padding: 1.2rem;
+  font-family: 'Open Sans' !important;
+  font-size: 0.8rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile button.button.post {
+  width: 100%;
+  padding: 0.85em 1em;
+  color: #fff;
+  background: #0b4f89;
+  border-radius: 3px;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .privateAction {
+  padding: 0.25rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .privateCondolence-label {
+  width: 70%;
+  font-size: 0.7rem;
+  text-align: right;
+  line-height: 1.4rem;
+  float: left;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile label.switch-paddle {
+  float: right;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .tributeAction {
+  line-height: 1.4rem;
+  background: #f7f5f6;
+  border-radius: 3px;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .tributeAction a {
+  color: #707070;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.emptyWallTile {
+  text-align: center;
+  background: #f7f5f5;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.emptyWallTile h3 {
+  font-size: 1rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.emptyWallTile p {
+  line-height: 1.2rem;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.plantTreeTile {
+  margin-bottom: 0rem;
+  background: url("../assets/plant-tree-cta.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.plantTreeTile .cta.cta-plantTree a {
+  width: 200px;
+  margin: 0rem auto;
+  margin-top: 0.6rem;
+  padding: 0px 50px;
+  font-size: .8rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.plantTreeTile .tileText {
+  padding: 1.2rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile .treesPlanted {
+  padding: 0.8rem !important;
+  padding-top: 0.6rem !important;
+  text-align: center;
+  background: #fff;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile .treesPlanted span {
+  font-size: 0.8rem !important;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.plantTreeTile .treePartner {
+  font-size: .9rem;
+  font-weight: normal;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.plantTreeTile .treePartner a,
+.bom-n6.bom-foundation-wrapper .bomTile.plantTreeTile .treePartner a:hover,
+.bom-n6.bom-foundation-wrapper .bomTile.plantTreeTile .treePartner a:visited {
+  color: #fff !important;
+  font-weight: normal !important;
+  text-decoration: underline;
+}
+
+.bom-n6.bom-foundation-wrapper .bomContent.familyInteractive-content {
+  margin: 0rem auto;
+  padding-top: 1rem;
+  background: #fff;
+}
+
+.bom-n6.bom-foundation-wrapper ul#bom-affiliations {
+  margin-left: 0rem;
+  text-align: left;
+  list-style: none;
+}
+
+.bom-n6.bom-foundation-wrapper ul#bom-affiliations li.bom-affiliation {
+  position: relative;
+  margin-bottom: 1rem;
+  padding: 4rem 0rem 0.5rem;
+  width: calc(100%/5 - 4px);
+  min-width: 140px;
+  color: #626262;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bom-n6.bom-foundation-wrapper ul#bom-affiliations li.bom-affiliation img.bom-association-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.bom-n6.bom-foundation-wrapper ul#bom-affiliations li.bom-affiliation span.association-name {
+  display: block;
+  padding: 0 0.25rem;
+}
+
+.bom-n6.bom-foundation-wrapper div#insignia-copyright {
+  color: #626262;
+  font-size: .7rem;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.bom-n6.bom-foundation-wrapper div#bom-site-wrapper .sticky-share-wrapper {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.bom-n6.bom-foundation-wrapper div#bom-site-wrapper .columns.small-12 .sticky {
+  background: #fff;
+}
+
+.bom-n6.bom-foundation-wrapper div#bom-site-wrapper .columns.small-12 .sticky .row {
+  margin: 0rem;
+}
+
+.bom-n6.bom-foundation-wrapper div#bom-site-wrapper .sticky-share-wrapper .sticky-share-col {
+  padding: 0rem;
+}
+
+.bom-n6.bom-foundation-wrapper div#bom-site-wrapper .sticky-share-wrapper .sticky-share-col:nth-child(1) {
+  border-right: 1px solid #e4e4e4;
+}
+
+.bom-n6.bom-foundation-wrapper div#bom-site-wrapper .sticky-share-wrapper .sticky-share-col a.button.expanded {
+  margin-bottom: 0rem !important;
+  padding: 1.4rem 0rem;
+  color: #fff !important;
+  font-family: 'Open Sans' !important;
+  font-size: .8rem;
+  letter-spacing: 0.04rem;
+  background: #82ae29;
+  border-radius: 0px;
+}
+
+.bom-n6.bom-foundation-wrapper div#bom-site-wrapper .sticky-share-wrapper .sticky-share-col a.button.expanded:hover {
+  background: #719b1e;
+}
+
+.bom-n6.bom-foundation-wrapper div#bom-site-wrapper .sticky-share-wrapper .sticky-share-col a.button.expanded.sticky-trees i.fa-tree:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  margin-bottom: -3px;
+  color: transparent;
+  background: center url("../assets/menu-tree-icon-mobile.png") no-repeat;
+  background-size: contain;
+  display: block;
+}
+
+.bom-n6.bom-foundation-wrapper div#bom-site-wrapper .sticky-share-wrapper .sticky-share-col a.button.expanded.sticky-share {
+  color: #444444 !important;
+  background: #f2f2f2;
+}
+
+.bom-n6.bom-foundation-wrapper div#bom-site-wrapper .sticky-share-wrapper .sticky-share-col a.button.expanded.sticky-share:hover {
+  background: #e2e2e2;
+}
+
+.bom-n6.bom-foundation-wrapper div#bom-site-wrapper .sticky-share-wrapper .sticky-share-col a.button.expanded.sticky-flowers img {
+  margin-top: -3px;
+}
+
+.bom-n6.bom-foundation-wrapper #dm .dmBackToTop {
+  bottom: 70px;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-sendFlowers.flower-styles-off a,
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree.flower-styles-off a,
+.bom-n6.bom-foundation-wrapper .cta.cta-webcast.flower-styles-off a,
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now {
+  color: #d75e5e !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #ffffff !important;
+  border: none;
+  border: 2px solid #d75e5e;
+  /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); */
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  overflow: hidden;
+}
+
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now {
+  font-size: .8rem !important;
+  display: inline-block !important;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree.flower-styles-off a {
+  color: #95c13b !important;
+  border: 2px solid #95c13b;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-sendFlowers.flower-styles-off a:hover span,
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree.flower-styles-off a:hover span,
+.bom-n6.bom-foundation-wrapper .cta.cta-webcast.flower-styles-off a:hover span,
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now:hover span {
+  color: #fff !important;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-sendFlowers.flower-styles-off a:before,
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree.flower-styles-off a:before,
+.bom-n6.bom-foundation-wrapper .cta.cta-webcast.flower-styles-off a:before,
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now:before {
+  display: none;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-sendFlowers.flower-styles-off a span,
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree.flower-styles-off a span,
+.bom-n6.bom-foundation-wrapper .cta.cta-webcast.flower-styles-off a span,
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now span {
+  color: #d75e5e !important;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  z-index: 3;
+  position: relative;
+}
+
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now:before,
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now:after,
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now span:before,
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now span:after {
+  display: none;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree.flower-styles-off a span {
+  color: #95c13b !important;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-sendFlowers.flower-styles-off a .styles-off-btn:before,
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree.flower-styles-off a .styles-off-btn:before,
+.bom-n6.bom-foundation-wrapper .cta.cta-webcast.flower-styles-off a .styles-off-btn:before,
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now .styles-off-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+  background-image: url("../assets/menu-flower-icon.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid #d75e5e;
+  border-radius: 0px;
+  z-index: 2;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree.flower-styles-off a .styles-off-btn:before {
+  background-image: url("../assets/menu-tree-icon.png");
+  border: 2px solid #95c13b;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-sendFlowers.flower-styles-off a .styles-off-btn:after,
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree.flower-styles-off a .styles-off-btn:after,
+.bom-n6.bom-foundation-wrapper .cta.cta-webcast.flower-styles-off a .styles-off-btn:after,
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now .styles-off-btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+  background-color: #d75e5e;
+  border: 2px solid #d75e5e;
+  border-radius: 0px;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  z-index: 1;
+}
+
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now .styles-off-btn:before,
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now .styles-off-btn:after {
+  width: 30px;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree.flower-styles-off a .styles-off-btn:after {
+  background-color: #95c13b;
+  border: 2px solid #95c13b;
+}
+
+.bom-n6.bom-foundation-wrapper .cta.cta-sendFlowers.flower-styles-off a:hover .styles-off-btn:after,
+.bom-n6.bom-foundation-wrapper .cta.cta-plantTree.flower-styles-off a:hover .styles-off-btn:after,
+.bom-n6.bom-foundation-wrapper .cta.cta-webcast.flower-styles-off a:hover .styles-off-btn:after,
+.bom-n6.bom-foundation-wrapper div#wall .gestureItem-description .cta.flowers-cta.flower-styles-off a.buy-now:hover .styles-off-btn:after {
+  width: 100% !important;
+}
+
+/* non-wrapped content */
+.reveal-overlay {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.reveal {
+  text-align: center;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+}
+
+.reveal.large,
+#loginModal.reveal,
+#contactFHModal.reveal,
+#contactFHModalSent.reveal,
+#condolencePosted.reveal,
+#subscribeModal.reveal {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 40em) {
+
+  .reveal.large,
+  #loginModal.reveal,
+  #condolencePosted.reveal,
+  #subscribeModal.reveal {
+    padding: 5rem 10rem;
+  }
+}
+
+.reveal.large h4,
+#loginModal.reveal h4,
+#contactFHModal.reveal h4,
+#condolencePosted.reveal,
+#subscribeModal.reveal h4 {
+  margin-bottom: 3rem;
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 1.5rem;
+}
+
+#loginModal.reveal a.facebookLogin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto 2rem;
+  width: 65px;
+  height: 65px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: normal;
+  background: #0a4f88;
+  border-radius: 50%;
+}
+
+/*#loginModal.reveal form,*/
+#loginModal.reveal>div.row,
+#familyLoginModal.reveal form {
+  padding-top: 2rem;
+  border-top: 1px solid #e1e1e1;
+}
+
+.reveal .loginModal-separator {
+  position: relative;
+  padding: 0 0 35px 0;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 40em) {
+  .reveal .loginModal-separator {
+    padding: 35px 0 0 0;
+  }
+}
+
+.reveal .loginModal-separator:after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #e1e1e1;
+}
+
+@media screen and (min-width: 40em) {
+  .reveal .loginModal-separator:after {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+  }
+}
+
+.reveal .loginModal-separator span {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0.5rem;
+  background: #fff;
+}
+
+#loginModal.reveal input[type="text"] {
+  font-size: 1em;
+}
+
+#familyLoginModal.reveal input[type="text"],
+#familyLoginModal.reveal input[type="password"],
+#loginModal.reveal input[type="text"],
+#contactFHModal.reveal input[type="text"],
+#subscribeModal.reveal select,
+#subscribeModal.reveal input[type="text"],
+#emailShareModal.reveal input[type="text"],
+#emailShareModal.reveal input[type="email"],
+#emailShareModal.reveal textarea,
+.directionsModal.reveal input[type="text"] {
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media screen and (min-width: 40em) {
+
+  #loginModal.reveal input[type="text"],
+  #contactFHModal.reveal input[type="text"],
+  #familyLoginModal.reveal input[type="text"],
+  #familyLoginModal.reveal input[type="password"],
+  #emailShareModal.reveal input[type="text"],
+  #emailShareModal.reveal input[type="email"] {
+    margin: 0 0.5rem 1rem;
+    max-width: calc(50% - 1rem);
+  }
+}
+
+@media screen and (min-width: 40em) {
+
+  #contactFHModal.reveal textarea,
+  #emailShareModal.reveal select,
+  #emailShareModal.reveal textarea {
+    margin: 0 0.5rem 1rem;
+    max-width: calc(100% - 1rem);
+  }
+}
+
+#emailShareModal.reveal select {
+  background-position: right 0 center;
+}
+
+#familyLoginModal.reveal .button,
+#loginModal.reveal .button,
+#contactFHModal.reveal .button,
+#subscribeModal.reveal .button,
+#emailShareModal.reveal .button,
+.tributeWall-modal.reveal.large .button,
+.wcServiceModal button.WCServiceLogin,
+.directionsModal.reveal button.loc-map-controls.send-sms-map.button,
+.directionsModal.reveal button.loc-map-controls.send-email-map.button {
+  margin: 0 auto;
+  width: 100%;
+  background: #0a4f88;
+}
+
+.button.loginModalSubmit {
+  background: #77c2df !important;
+}
+
+.button.loginModalSubmit:hover {
+  background: #5ea2bd !important;
+}
+
+@media screen and (min-width: 40em) {
+
+  #familyLoginModal.reveal .button,
+  #loginModal.reveal .button,
+  #contactFHModal.reveal .button,
+  #subscribeModal.reveal .button,
+  #emailShareModal.reveal .button {
+    width: calc(100% - 1rem);
+  }
+}
+
+#subscribeModal.reveal .button,
+.directionsModal.reveal button.loc-map-controls.send-sms-map.button,
+.directionsModal.reveal button.loc-map-controls.send-email-map.button {
+  width: calc(100% - 2rem);
+}
+
+.directionsModal.reveal .button {
+  background: #0a4f88;
+  border-radius: 0;
+}
+
+@media screen and (min-width: 40em) {
+  .directionsModal.reveal .button {
+    padding: 0.85em 2em;
+  }
+}
+
+#loginModal.reveal .button:hover,
+#loginModal.reveal .button:focus,
+#contactFHModal.reveal .button:hover,
+#contactFHModal.reveal .button:focus,
+#subscribeModal.reveal .button:hover,
+#subscribeModal.reveal .button:focus,
+#emailShareModal.reveal .button:hover,
+#emailShareModal.reveal .button:focus,
+#globalBenefits.reveal.large .button:hover,
+#globalBenefits.reveal.large .button:focus,
+.directionsModal.reveal .button:hover,
+.directionsModal.reveal .button:focus,
+.directionsModal.reveal button.loc-map-controls.send-sms-map.button:hover,
+.directionsModal.reveal button.loc-map-controls.send-sms-map.button:focus,
+.directionsModal.reveal button.loc-map-controls.send-email-map.button:hover,
+.directionsModal.reveal button.loc-map-controls.send-email-map.button:focus {
+  background: #003866;
+}
+
+#condolencePosted.reveal h4 {
+  margin-bottom: 3rem;
+}
+
+#condolencePosted.reveal .gestureTile-text h4 {
+  margin-bottom: 0;
+  font-weight: 300;
+  color: #fff;
+}
+
+#condolencePosted.reveal .gestureTile-text .tileText {
+  color: #fff;
+}
+
+#condolencePosted.reveal .gestureTile {
+  margin: auto;
+  padding: 0;
+}
+
+.reveal.large .textDirections .directionsText,
+.reveal.large .emailDirections #directionsEmail {
+  margin-bottom: 2rem;
+}
+
+.reveal .cta-sendFlowers,
+.reveal .cta-plantTree {
+  margin: auto;
+}
+
+div#bom-site-wrapper {
+  background: none;
+  top: 0px !important;
+  margin-top: 0px !important;
+}
+
+.reveal.large .gestureTile h4,
+#bom-site-wrapper div.bomContent .gestureTile h4,
+#bom-site-wrapper .gestureTile .tileText {
+  position: relative;
+  color: #fff;
+  font-size: 12px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.reveal.tributePhoto-reveal,
+.reveal.tributeVideo-reveal {
+  padding: 0.125rem;
+}
+
+.reveal.tributePhoto-reveal img,
+.reveal.tributeVideo-reveal img {
+  width: 100%;
+}
+
+.reveal>.photosVideos-caption {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+#bom-site-wrapper div.bomContent .gestureItem h4.gestureItem-description-title {
+  margin: 0;
+  color: #000;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.reveal .bom-error .subscribe-error-message,
+.reveal .subscribe-success {
+  margin: 1rem 1rem 0;
+  padding: 1rem;
+}
+
+.reveal .subscribe-success {
+  background: #f7f5f5;
+}
+
+.reveal .bom-error .subscribe-error-message {
+  color: red;
+}
+
+/* directions modal */
+.directionsModal.reveal {
+  padding: 5rem 2rem;
+  height: 90%;
+}
+
+.directionsModal.reveal h4 {
+  margin-bottom: 0;
+}
+
+.directionsModal.reveal .tabs-panel h5 {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.directionsModal.reveal .directions-container {
+  margin-top: 2rem;
+}
+
+.directionsModal.reveal .tabs,
+.directionsModal.reveal .tabs-content {
+  border: 0;
+}
+
+.directionsModal.reveal .tabs-title>a {
+  margin-right: 0.25rem;
+  padding: 0.5rem;
+  color: #707070;
+  font-size: 0.9em;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+@media screen and (min-width: 850px) {
+  .directionsModal.reveal .tabs-title>a {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width: 40em) {
+  .directionsModal.reveal .tabs-title {
+    display: block;
+    margin-bottom: 0.25rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .directionsModal.reveal li.tabs-title.tab-directions {
+    width: 40%;
+  }
+
+  .directionsModal.reveal li.tabs-title.tab-text,
+  .directionsModal.reveal li.tabs-title.tab-email {
+    width: 30%;
+  }
+
+  .directionsModal.reveal .tabs-title>a {
+    padding: 0.5rem 0;
+  }
+}
+
+.directionsModal.reveal .tabs-title>a i {
+  margin-right: 0.25rem;
+}
+
+.directionsModal.reveal .tabs-title>a:hover,
+.directionsModal.reveal .tabs-title>a:focus,
+.directionsModal.reveal .tabs-title>a[aria-selected='true'] {
+  color: #0a4f88;
+  background: #f5f5f5;
+}
+
+@media screen and (min-width: 40em) {
+
+  .directionsModal.reveal .tabs-title>a:hover i,
+  .directionsModal.reveal .tabs-title>a:focus i,
+  .directionsModal.reveal .tabs-title>a[aria-selected='true'] i {
+    /*font-size: 1.25em;*/
+    /*line-height: 0.5;*/
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .directionsModal.reveal .tabs-title>a i {
+    display: none;
+  }
+}
+
+.directionsModal.reveal .tabs-panel {
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.directionsModal.reveal .tabs-panel label.directions-label {
+  display: none;
+}
+
+.directionsModal.reveal .formSection-container {
+  margin-top: 1.5rem;
+}
+
+.directionsModal.reveal img.adp-marker2 {
+  max-width: none;
+}
+
+.directionsModal.reveal .adp-summary {
+  margin-bottom: 1rem;
+  color: #707070;
+  font-weight: 600;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+@media screen and (min-width: 60em) {
+  .directionsModal.reveal .directions-rightColumn {
+    height: 80%;
+  }
+
+  .directionsModal.reveal .directions-rightColumn .responsive-embed {
+    height: 100%;
+  }
+}
+
+/* Photographic Memories Start */
+
+#photographic-memories.reveal {
+  position: fixed;
+  top: 0 !important;
+  padding: 0;
+  background: #1f1f1f;
+}
+
+#photographic-memories.reveal button.close-button {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#photographic-memories #in-memoryof-container {
+  margin: auto;
+  padding: 1rem 0;
+  width: 80%;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#photographic-memories #in-memoryof-container #in-memoryof-text {
+  position: relative;
+  color: #8f8f8f;
+}
+
+#photographic-memories #in-memoryof-container #in-memoryof-text:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 1px;
+  background: #000;
+}
+
+#photographic-memories #in-memoryof-container #in-memoryof-name {
+  color: #fff;
+  font-size: 5vh;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.photographic-memories .photo-mem-prev-btn,
+.photographic-memories .photo-mem-next-btn {
+  position: absolute;
+  top: 50%;
+  margin: 15px;
+  height: auto;
+  width: auto;
+  font-size: 5vh;
+  color: rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  z-index: 10;
+  transition: ease 250ms;
+}
+
+@media screen and (max-width: 39.9375em) {
+  #photographic-memories.reveal button.close-button {
+    padding: 0.65em;
+  }
+
+  .photographic-memories .photo-mem-prev-btn,
+  .photographic-memories .photo-mem-next-btn {
+    position: fixed;
+    top: 40px;
+    margin: 0;
+    padding: 0.5rem;
+    width: 32px;
+    font-size: 1em;
+    background: #000;
+  }
+}
+
+.photographic-memories .photo-mem-prev-btn:hover,
+.photographic-memories .photo-mem-prev-btn:focus,
+.photographic-memories .photo-mem-next-btn:hover,
+.photographic-memories .photo-mem-next-btn:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
+.photographic-memories .photo-mem-prev-btn {
+  left: 0;
+}
+
+.photographic-memories .photo-mem-next-btn {
+  right: 0;
+}
+
+.photographic-memories #main-photo-memories-content {
+  text-align: center;
+}
+
+.photographic-memories img#photo-mem-image {
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);*/
+  /* breaks in Edge */
+  max-height: 80vh;
+  border: 3px solid #fff;
+  box-shadow: 0 10px 65px #000;
+}
+
+.photographic-memories #music-controls {
+  /*position: absolute;*/
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.075);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.photographic-memories #audio-player {
+  background: #f1f3f4;
+}
+
+/* Photographic Memories End */
+
+/* HAL: global benefits modal */
+.tributeWall-modal.reveal.large {
+  padding: 0;
+  text-align: left;
+}
+
+.tributeWall-modal.reveal.large .tributeWall-modal-content-container {
+  padding: 5rem;
+}
+
+#globalBenefits.reveal.large .tributeWall-modal-content-container {
+  padding: 5rem 5rem 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .tributeWall-modal.reveal.large .tributeWall-modal-content-container {
+    padding: 5rem 2rem;
+  }
+
+  #globalBenefits.reveal.large .tributeWall-modal-content-container {
+    padding: 5rem 2rem 0;
+  }
+}
+
+.tributeWall-modal.reveal.large h4 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.tributeWall-modal.reveal.large .tributeWall-modal-content h5,
+.tributeWall-modal.reveal.large .tributeWall-modal-content h6,
+.tributeWall-modal.reveal.large .tributeWall-modal-content .fa-li {
+  color: #000;
+}
+
+.tributeWall-modal.reveal.large .responsive-embed {
+  padding-bottom: 57%;
+}
+
+.tributeWall-modal.reveal.large .tributeWall-modal-content {
+  margin: 3rem 0 2rem;
+}
+
+#globalBenefits.reveal.large .tributeWall-modal-content img {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.tributeWall-modal.reveal.large .tributeWall-modal-content .fa-ul {
+  margin-left: 2rem;
+}
+
+.tributeWall-modal.reveal.large .tributeWall-modal-content .fa-ul>li {
+  margin-bottom: 0.5rem;
+}
+
+.tributeWall-modal.reveal.large .tributeWall-modal-content .fa-li {
+  left: -3rem;
+  padding-top: 0.35rem;
+  width: 3.5rem;
+}
+
+#globalBenefits.reveal.large .globalBenefits-footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #f7f5f5;
+}
+
+#globalBenefits.reveal.large .globalBenefits-footer .row.globalBenefits-footer-partners {
+  padding: 1rem 0;
+  width: 100%;
+}
+
+/* modals */
+.reveal-overlay .reveal.modal.large h4.textTitle,
+div#emailModal-First_Visitation h4.textTitle,
+div#emailShareModal h4,
+div#wcServiceModal-Service h4.textTitle,
+#condolencePosted.reveal h4 {
+  margin-bottom: 0rem;
+  padding-bottom: 1rem;
+  color: #555555;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.reveal-overlay .reveal.modal.large .directionsText,
+.reveal-overlay .reveal.modal.large div#directionsEmail {
+  margin-bottom: 1rem;
+  color: #626262;
+  font-size: .8rem;
+  text-align: center;
+}
+
+.reveal-overlay .reveal.modal.large .formSection,
+div#emailModal-First_Visitation .formSection,
+.reveal-overlay div#directionsModalSent .cta.cta-sendFlowers {
+  padding: 0rem;
+}
+
+.reveal-overlay .reveal.modal.large .formSection label,
+div#emailModal-First_Visitation .formSection label,
+div#wcServiceModal-Service label {
+  color: #626262;
+  font-size: .8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.reveal-overlay .reveal.modal.large .button,
+div#emailModal-First_Visitation .button {
+  width: 100%;
+  margin-bottom: 0rem;
+  background: #0b4f89;
+}
+
+.reveal-overlay .reveal.modal.large .button:hover,
+div#emailModal-First_Visitation .button:hover {
+  width: 100%;
+  margin-bottom: 0rem;
+  background: #073d6d;
+}
+
+.reveal-overlay div#familyLoginModal h4,
+.reveal-overlay div#subscribeModal h4,
+.reveal-overlay div#directionsModalSent h4,
+#loginModal.reveal h4 {
+  margin-bottom: 0rem;
+  padding-bottom: 1rem;
+  color: #555555;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.reveal-overlay div#familyLoginModal h5,
+.reveal-overlay div#subscribeModal h5 {
+  margin-bottom: .6rem;
+  color: #626262;
+  font-size: .8rem;
+}
+
+.reveal-overlay div#familyLoginModal p.tileText,
+.reveal-overlay div#subscribeModal p.tileText,
+.reveal-overlay div#directionsModalSent p.tileText {
+  margin-bottom: 1rem;
+  color: #626262;
+  font-size: .8rem;
+}
+
+.reveal-overlay div#subscribeModal p.tileText strong {
+  padding-top: .6rem;
+  border-top: 1px solid #e1e1e1;
+  display: block;
+}
+
+.reveal-overlay div#directionsModalSent .cta.cta-sendFlowers a {
+  min-height: 50px;
+  padding: 0.2rem 50px;
+  text-align: left;
+}
+
+#condolencePosted.reveal span.gestureTile-text h4 {
+  padding-bottom: 0.2rem;
+  font-size: 1.2rem;
+}
+
+#condolencePosted.reveal p.tileText.close {
+  margin-top: 1.6rem;
+}
+
+#bom-site-wrapper div.bomContent #wall h3.tileHeading {
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: left !important;
+}
+
+/* CF Donation */
+
+.reveal-overlay div#startCFDonation {
+  padding: 3rem 3rem;
+}
+
+.reveal-overlay div#startCFDonation form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.reveal-overlay div#startCFDonation h4 {
+  margin-bottom: 0rem;
+  padding-bottom: 1rem;
+  color: #555555;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.reveal-overlay div#startCFDonation input,
+.reveal-overlay div#startCFDonation select,
+.reveal-overlay div#startCFDonation textarea {
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.reveal-overlay div#startCFDonation button.button {
+  width: 100%;
+  background: #0a4f88;
+}
+
+.reveal-overlay div#startCFDonation button.button:hover {
+  background: #003866;
+}
+
+.reveal-overlay div#startCFDonation ul {}
+
+.reveal-overlay div#startCFDonation ul li {
+  display: contents;
+}
+
+.reveal-overlay div#startCFDonation .privacy-policy {
+  color: #626262;
+  font-size: .8rem;
+}
+
+.bomTile.funeralPayTile .column, .bomTile.funeralPayTile .dmRespDesignCol, .bomTile.funeralPayTile .column, .bomTile.funeralPayTile .dmRespCol {
+    position: initial !important;
+    width: initial !important;
+    display: initial !important;
+    vertical-align: initial !important;
+    float: initial !important;
+}
+.bomTile.funeralPayTile .large-3 {
+    width: initial;
+}
+
+/* tiles */
+#bom-site-wrapper div.bomTile.recordingTile h3,
+#bom-site-wrapper div.bomTile.photosVideosTile h3,
+#bom-site-wrapper div.bomTile.photographicMemoriesTile h3,
+#bom-site-wrapper div.bomTile.donationsTile h3,
+#bom-site-wrapper div.bomTile.funeralPayTile h3,
+#bom-site-wrapper div.bomTile.affiliationTile h3,
+#bom-site-wrapper div.bomTile.shivaTile h3,
+#bom-site-wrapper div.bomTile.webcastingTile h3 {
+  font-family: Open Sans !important;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #555555;
+}
+
+/* mobile modal */
+@media screen and (max-width: 39.9375em) {
+  .reveal {
+    height: auto;
+    min-height: initial;
+  }
+}
+
+/*# sourceMappingURL=Theme_N6.css.map */
+
+
+
+.memorial-alternate-position {
+  margin: 20px auto !important;
+  text-align: center !important;
+}
+
+
+/* RSVP */
+.bom-n6.bom-foundation-wrapper a.open-rsvp {
+    padding: .2rem 2rem;
+    color: #fff !important;
+    font-size: 0.9em;
+    background: #4069b4 !important;
+    border-radius: 3px;
+}
+.bom-n6.bom-foundation-wrapper a.open-rsvp {
+    background-color: #365899;
+}
+.reveal.modal.rsvpmodal .textTitle {
+    padding-bottom: 0rem !important;
+}
+.reveal.modal.rsvpmodal .rsvpEventDeets {
+    padding: 0rem 1rem !important;
+    padding-bottom: 1rem !important;
+    font-size: 14px;
+}
+.reveal.modal.rsvpmodal .rsvpEventDeets .rsvpSectionTitle {
+    margin-top: 1rem;
+    font-size: 18px;
+}
+.reveal.modal.rsvpmodal .row.formSection-container .rsvpEmail {
+    width: 100%;
+    padding-bottom: 1rem;
+    color: #626262;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+}
+.maxAttendessSection > div {
+    padding: .6rem !important;
+    margin-bottom: 1rem !important;
+    color: #444444;
+    font-size: .8rem;
+    text-align: center;
+    background: #f1f1f1;
+    border: 1px solid #e6e6e6 !important;
+}
+.timeslotSection .singleTimeSlot {
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    border-top: 1px solid #e6e6e6;
+}
+.timeslotSection .singleTimeSlot label {
+    color: #333333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.timeslotSection .singleTimeSlot label {
+    color: #333333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.timeslotSection .singleTimeSlot span {
+    color: #4069b4;
+    font-size: .9rem;
+}
+.timeslotSection ul.accordion {
+    padding-bottom: 1rem;
+}
+.timeslotSection .singleTimeSlot .btnSelectTimeslot {
+    max-width: 140px;
+    padding: .2rem 1rem !important;
+    text-align: center;
+    float: right;
+}
+.btnSelectTimeslotFull {
+    padding: .2rem 2rem;
+    color: #444 !important;
+    font-size: 0.9em;
+    background: #f1f1f1 !important;
+    border-radius: 3px;
+    max-width: 100px;
+    border: 1px solid #e6e6e6;
+    cursor: not-allowed;
+    text-align: center;
+    float: right;
+    max-width: 140px !important;
+    padding: .2rem 1rem !important;
+}
+.timeslotSection .accordion-title {
+    padding: .8rem 1rem;
+    color: #222;
+    font-size: .8rem;
+    background: #f1f1f1;
+    border: 1px solid #e6e6e6 !important;
+}
+.timeslotSection .accordion-content {
+    color: #222;
+    font-size: .8rem;
+    border-top: none;
+}
+.timeslotSection .accordion-title:hover, .timeslotSection .accordion-title:focus {
+    color: #222;
+}
+.singleTimeSlotSelected {
+    background: none;
+}
+.timeslotSection .singleTimeSlotSelected .btnSelectTimeslot {
+    background: #3FB74B !important;
+}
+.timeslotSection .singleTimeSlot .btnSelectTimeslot {
+    cursor: pointer;
+}
+.rsvpFamilyPasswordSection {
+    padding: .6rem !important;
+    margin-bottom: 1rem !important;
+    color: #444444;
+    font-size: 0.8rem;
+    text-align: center;
+    background: #f1f1f1;
+    border: 1px solid #e6e6e6 !important;
+}
+.rsvpFamilyPasswordSection label {
+    color: #333;
+    font-size: 0.8rem;
+}
+.maxAttendeesReached {
+    padding: .6rem !important;
+    margin-bottom: 1rem !important;
+    color: #444444;
+    font-size: .9rem;
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #e6e6e6 !important;
+}
+.maxAttendeesReached label {
+    color: #222;
+    font-size: 1rem;
+}
