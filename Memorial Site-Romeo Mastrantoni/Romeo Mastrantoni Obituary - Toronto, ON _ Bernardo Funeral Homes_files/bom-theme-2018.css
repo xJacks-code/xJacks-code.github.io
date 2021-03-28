@@ -1,0 +1,9 @@
+@media screen and (max-width: 39.9375em) {
+	.bom-n6 .headerTop {
+		background-position: 85% 0 !important;
+	}
+}
+
+.bom-n6.bom-foundation-wrapper .headerShare .small-4 {
+    left: -380px;
+}

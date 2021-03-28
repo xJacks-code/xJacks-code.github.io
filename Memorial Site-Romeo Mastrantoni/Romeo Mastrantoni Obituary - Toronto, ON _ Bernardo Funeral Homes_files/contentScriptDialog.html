@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- saved from url=(0183)file:///Users/jack/Desktop/Memorial%20Site%20-%20Romeo%20Mastrantoni/Romeo%20Mastrantoni%20Obituary%20-%20Toronto,%20ON%20_%20Bernardo%20Funeral%20Homes_files/contentScriptDialog.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/fonts/opensans/opensans.css">
+<link rel="stylesheet" type="text/css" href="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/fonts/fontawesome.min.css">
+<link rel="stylesheet" type="text/css" href="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/newvaultGlobal.css">
+<link rel="stylesheet" type="text/css" href="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/buttons.css">
+<link rel="stylesheet" type="text/css" href="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/dialog.css">
+<link rel="stylesheet" type="text/css" href="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/contentScriptDialog.css">
+</head>
+
+<body class="dialogLoading">
+
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/topics.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/platform.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/platformOverride.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/vaultStrings.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/tools.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/dialog.js"></script><div id="dialogLoadingOverlay" class="overlay"></div><div id="dialogOverlay" class="overlay"></div>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/dialogFields.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/dialogs.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/vaultDialogs.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/contentScriptDialogs.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/request.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/controller.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/model.js"></script>
+
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/interfaces.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/contentScriptInterface.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/contentScriptDialogInterface.js"></script>
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/initializeContentScriptDialog.js"></script><iframe class="backgroundFrame" src="./backgroundFrame.html"></iframe>
+
+
+
+
+<script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/contentScriptDialog.js"></script><script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/dialogWithGroupInput.js"></script><script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/contentScriptSiteDialog.js"></script><script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/selectDropdown.js"></script><script type="text/javascript" src="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/typeaheadDropdown.js"></script><div class="dialog responsive lmiDialog vaultDialog" role="dialog" aria-labelledby="siteDialogTitle" id="siteDialog" style="display: none;"><button class="focusCycler"></button><div class="dialogHeader icon"><div class="dialogHeaderInner"><button class="dialogAllSitesButton" automation-id="dialogAllSitesButton">All Items</button><span class="dialogHeaderTitle" id="siteDialogTitle"></span></div></div><div class="dialogContent dialogContentFixed"><div class="main">
+
+  <p class="question siteDialogHeader">Add to LastPass?</p>
+
+  <p class="explanation siteDialogHeader"></p>
+
+  <div class="siteDialogContent">
+    <div class="tileContainer"></div>
+    <button class="updateAnotherSiteButton link displaynone">I want to update another account</button>
+    <button class="addNewSiteButton link displaynone">I want to add a new account</button>
+    <div class="siteDialogButtons">
+      <div class="logo"></div>
+      <button id="close" class="lighterHover">Not now</button>
+      <button id="submit" class="rbtn">Add</button>
+    </div>
+  </div>
+
+  <!-- Templates -->
+
+  <div class="dialogForm">
+    
+    <div class="dropdownContainer"><div class="relative"><div class="dropdownHint"><span></span></div><input aria-label="Username" dialogfield="unencryptedUsername" class="usernameInput dialogInput typeaheadDropdown clickToggles" type="text" placeholder="Enter your email/username" spellcheck="false"></div><div class="dropdownMenu selectDropdownList lmiDropdown"><ul></ul></div></div><div class="relative" style="margin: 0px;"><input aria-label="Password" dialogfield="password" class="dialogInput passwordToggle password" type="password" spellcheck="false" style="margin: 0px;"><button class="showPassword textual" title="Show Password">SHOW</button></div>
+    <label for="siteDialogFolder" class="label">Folder</label>
+    
+    <div class="dropdownContainer"><div class="relative"><div class="dropdownHint"><span></span></div><input id="siteDialogFolder" dialogfield="group" class="dialogInput typeaheadDropdown clickToggles" type="text" spellcheck="false"></div><div class="dropdownMenu selectDropdownList lmiDropdown"><ul></ul></div></div><button class="link neverSave">Never save this site</button>
+  </div>
+
+  <div class="template tile">
+    <div class="tileTable">
+      <div class="tileTableCell addSiteFaviconContainer">
+        <div class="addSiteFavicon">
+          <div class="checkmark hoverFadeIn displaynone"></div>
+        <img class="favicon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADTElEQVQ4T21TbUxTVxh+zulte9vbUtqLAmJ1Ugc4cdEtjKjzo8yZOAXjHN2Pxa9liZtxusiPzU1jF+OWfRk1mqgxThM1BpIRRXGTTSZbAGlUTEAGxQ7tcBBaitrK6Md9zb0O49ebvMk5z/ueJ+c953kYnhNElTpZ/lAaHBwktexwOFh4//4Y83hST7ezxwBGBDCGBQA+B1A4WtRYgDYAX5HX+xvzelVIg0d7OAA1f7KadaWrymeh5VovWloD2slXp+WisCALR6sa1W0NgLcBKGqqBJwIxBhOFRWOK/1608zk775/2IHqLi4wI3Rch3sjUXgWvKC8NMlGlT/fEJqu9tYQYSlj6oUfxnyLZKxfUz4nfunqX3pf+xDcWTKyIzEmEoefUtSciMNhV7B+dUmiuydkOFLV5CbyNqgERrvNevGDlYuLas83KoFgRFiek0POQD9zueywSCIiIqFD1FHtrQhTEiPJzRvf4Z/tOO4LD96bpxLY9IIQrPjkfcvOvUcx1mbH0vAwy5zixMtWCf39d/B3gR0G3010OTPpTFcH1q9bCyU1HP32+4NOlcA6e3ZxwJ6eltHcckV5ZXIuLxZFZEbjCKfiyFryBvK4hM5DlTjHEzh1q1vZ+kUFt1jMoU83b8/VCDxlxQGbmWfU/dmmzJ2Rxy3dISxUjNC/PhGmuj6Ii8ajqbYdF0QJZ/2dyoZVczjXUWjX4QaNwDY1LztYvmiq5buD9VjpKYH59ggrTsYQ5oQXx09Ab2s7GoMx1BgZDQzcxq8n1mHLD+ejf1zyayMYdTpc3LZ2etHQ3biy89h1welyUcH9JJs0nEBWTgauBfvQ6rDSzZ4eVrEiPzlhnMQ3fuPzTQa0R9S+US+g/uP3psXldEl/8kwbboQIY9IyGFKEf4cGKN8pYpl7ImZOH5vYsttnuNwRcZMX2jeqClRVddpsMpWe3LcmaZZM7McTDTxJHHei/8FmNWH5WzOUKS6Z3v3okHDd3/eMkHg5wE4bhGr33NdKDXpCe2cvssekQXakIZEixO6rRBJ+udBSU1YWX1ZVpXlBk/JoqGsVfHPUTE85TzMTgLr/PfSEmR71EhEHvoQs77FwzkmWgVRKYX7/hqjmPuZVx30UDwBdv0iPS7JDqgAAAABJRU5ErkJggg=="></div>
+      </div>
+      <div class="tileTableCell tileContent">
+        <div class="summaryView">
+          <div class="tileTable">
+            <div class="tileTableCell">
+              <p class="tilePrimary" dialogfielddisplay="name"></p>
+              <p class="tileSecondary" dialogfielddisplay="unencryptedUsername"></p>
+              <div class="actionCell">
+                <div class="hoverAction">
+                  <button class="tileDetails viewButton"></button>
+                </div>
+              </div>
+            </div>
+            <div class="tileTableCell tileEditCell">
+              <div class="tileEdit fa-stack">
+                <div class="fa fa-circle fa-stack-2x circle">
+                  <div class="fa fa-pencil fa-stack-1x fontAwesomeIcon"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="template deleteOverlayContainer">
+    <div class="deleteOverlay tileTable">
+      <div class="tileTableCell deleteSummary">
+        <p class="tilePrimary">Delete duplicate?</p>
+        <p class="tileSecondary">We'll update your vault</p>
+      </div>
+      <div class="tileTableCell cancelDeleteButtonCell">
+        <button class="lighterHover cancelDeleteButton">Keep</button>
+      </div>
+      <div class="tileTableCell deleteButtonCell">
+        <button class="deleteButton">Yes, delete</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="animationContainer">
+    <div>
+      <div>
+
+      <svg class="inProcessAnimation" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+          <clippath id="inProcessAnimation-logoMask">
+            <circle cx="5" cy="13" r="5"></circle>
+            <circle cx="20" cy="13" r="5"></circle>
+            <circle cx="35" cy="13" r="5"></circle>
+            <path d="M45 5 C 45 0, 50 0, 50 5 v 20 C 50 30, 45 30, 45 25 Z"></path>
+          </clippath>
+        </defs>
+
+        <g clip-path="url(#inProcessAnimation-logoMask)">
+          <rect fill="#D32D27" height="30" width="50"></rect>
+          <rect fill="#81D6E3" height="30" width="50">
+            <animate attributeName="x" from="-50" to="50" dur="0.6s" repeatCount="indefinite" begin="0s"></animate>
+          </rect>
+        </g>
+      </svg>
+
+      <div class="successAnimation">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <path id="successCheckmark" d="M5 10 L 9 14 C 10 15, 10 15, 11 14 L 22 3" stroke="#00CA95" stroke-width="3.5" fill="transparent" stroke-linecap="round"></path>
+        </svg>
+        <p class="successMessage successFadeIn">All set!</p>
+      </div>
+
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<div id="removeGeneratedConfirmation" class="tileTable">
+  <div class="tileTableCell">
+    <p class="confirmationTitle">Are you sure?</p>
+    <p class="confirmationText">Your generated password will not be saved in the vault.</p>
+    <div class="siteDialogButtons">
+      <button id="undo" class="gbtn">Yes, remove</button>
+      <button id="closeConfirmation" class="rbtn">Never mind! Keep in vault</button>
+    </div>
+  </div>
+</div>
+</div><button class="focusCycler"></button></div><link type="text/css" rel="stylesheet" href="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/contentScriptSiteDialog.css"><link type="text/css" rel="stylesheet" href="chrome-extension://hdokiejnpimakedhajhdlcegeplioahd/lmiDialog.css"></body></html>

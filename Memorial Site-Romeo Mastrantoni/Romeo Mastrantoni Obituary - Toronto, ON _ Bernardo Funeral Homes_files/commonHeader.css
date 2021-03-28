@@ -1,0 +1,184 @@
+.bom-foundation-wrapper .fb-like, .bom-foundation-wrapper .fb-like iframe[style], .bom-foundation-wrapper .fb-like>span {
+    min-width: 125px;
+}
+
+.dmBackToTop {
+    display: none !important;
+}
+
+.read-more-content iframe {
+    margin: auto;
+    display: block;
+}
+
+div#video-container-cond {}
+
+div.bom-tl .bomTile.leaveCondolenceTile .video-controls .tributeAction,
+div.bom-nt .bomTile.leaveCondolenceTile .video-controls .tributeAction,
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .video-controls .tributeAction {
+    padding: 0.5rem 2rem !important;
+    color: #707070;
+}
+
+.bom-n6.bom-foundation-wrapper .bomTile.leaveCondolenceTile .video-controls .tributeAction {
+    color: #4069b4 !important;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+div.bom-tl .bomTile.leaveCondolenceTile .tributeAction {
+    margin: auto;
+}
+
+div.bom-tl .video-controls .tributeAction {
+    margin-bottom: 0.7em !important;
+}
+
+div.bom-tl .bomTile.leaveCondolenceTile .tributeActions {
+    padding: 0.5rem 2rem !important;
+}
+
+.bom-n6.bom-foundation-wrapper #bom-site-wrapper.is-mobile #tribute-wall .video-controls {
+    margin-bottom: 1rem !important;
+}
+
+#sticky-bomsong {
+    position: fixed;
+    top: 95vh;
+    right: 0;
+    z-index: 2000;
+}
+
+.bomsong {
+    width: 70px;
+    height: 41px;
+    margin-right: 40px;
+    background-repeat: no-repeat;
+    float: right;
+    display: block;
+}
+
+#bom-play {
+    background-image: url("img/play-button.svg");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#bom-pause {
+    background-image: url("img/pause-button.svg");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#bom-play.bom-play-st {
+    background-image: url("img/play-button-st.svg");
+}
+
+#bom-pause.bom-pause-st {
+    background-image: url("img/pause-button-st.svg");
+}
+
+@media screen and (max-width: 750px) {
+    #sticky-bomsong {
+        top: initial;
+        bottom: 20px;
+    }
+
+    .bomsong {
+        width: 120px;
+        height: 70px;
+    }
+}
+
+/*Record specific */
+.record-3868376 .read-more-content {
+    text-align: justify;
+}
+
+.record-4006042 #bom-photo-con {
+    border-radius: 0px !important;
+}
+
+/*
+.bom-n6.bom-foundation-wrapper .sendFlowers-wrapper * {
+   position: initial;
+}
+.bom-n6.bom-foundation-wrapper .cta.cta-sendFlowers.flower-styles-off * {
+   position: initial;
+}*/
+/* *********************************************************** */
+/*                   YAHRZEIT CALENDAR                         */
+/* *********************************************************** */
+.yahrzeit-dates-list,
+.yahrzeit-dates-list * {
+    list-style: none;
+}
+
+.yahrzeit-date {
+    color: #707070;
+    font-size: 13px;
+    margin-left: .8rem !important;
+}
+
+.yahrzeit-date .day {
+    display: inline-block;
+}
+
+.yahrzeit-date .date {
+    text-align: right;
+    display: inline-block;
+}
+
+.fa-burn {
+    color: #707070;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+/* Service Details  Clock */
+.fa-calendar-alt {
+    color: #707070;
+}
+
+/* Photo Disclaimer */
+div.photoUploadDisclaimer {
+    margin: 1em !important;
+    font-size: 12px;
+}
+
+.file-upload-error {
+    background-color: #FBFBFB;
+    border: 1px solid #EFEFEF;
+    padding: 15px !important;
+    margin-bottom: 0.75em !important;
+}
+
+.uploadErrorIcon {
+    color: red;
+    margin-right: 1em;
+}
+
+.uploadErrorCloseIcon {
+    color: grey;
+    float: right;
+}
+
+.uploadErrorCloseIcon:hover {
+    cursor: pointer;
+}
+
+/* Language selector styling */
+
+form#langSelect select {
+    height: auto;
+    max-width: 170px;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    color: #fff;
+    font-size: .8rem;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+}
